@@ -1,0 +1,1208 @@
+// @import '/src/assets/scss/abstracts/_variables.scss';
+
+
+
+// @mixin centerFix {
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// }
+
+// #homePage {
+// 	position: relative;
+
+// 	.bannerArea {
+// 		display: flex;
+// 		align-items: center;
+// 		background-image: url('/assets/images/indexPage/hero-large-stream.png');
+// 		background-repeat: no-repeat;
+// 		background-size: cover;
+// 		aspect-ratio: 2/1;
+// 		padding: 3rem 2rem;
+
+// 		.banner {
+// 			display: flex;
+// 			flex-direction: column;
+// 			width: 100%;
+// 			color: white;
+// 		}
+
+// 		.carouselBox {
+// 			width: 100%;
+// 			border-radius: 1rem;
+// 		}
+
+// 		.carouselBox>.swipeBox {
+// 			position: relative;
+// 			display: flex;
+// 			gap: 1rem;
+// 			padding: 2rem;
+// 			border-radius: 0.6rem;
+// 			background-color: white;
+// 		}
+
+// 		.swiper-interact {
+// 			position: absolute;
+// 			z-index: 2;
+// 			width: 42%;
+// 		}
+
+// 		// ** 內文與圖片
+// 		.info-card {
+// 			display: flex;
+// 			gap: 1rem;
+
+// 			.slide-info {
+// 				flex: 3;
+// 				display: flex;
+// 				flex-direction: column;
+// 				gap: 1rem;
+// 				margin-top: 3.8rem;
+// 			}
+
+// 			img {
+// 				flex: 2;
+// 				aspect-ratio: 16/9
+// 			}
+
+
+// 			h2 {
+// 				font-size: 2.6rem;
+// 				font-weight: unset;
+// 			}
+
+
+// 			span {
+// 				color: $text-orange;
+// 				font-size: 1.8rem;
+// 			}
+
+// 			h2,
+// 			a {
+// 				color: $text-primary;
+// 			}
+
+// 			a {
+// 				max-width: 200px;
+// 				font-size: 1.8rem;
+// 				margin-top: auto;
+// 				margin-bottom: 1rem;
+// 			}
+
+// 			a:hover {
+// 				color: $primary
+// 			}
+
+
+// 		}
+
+// 		// ** 控制項
+// 		.ctr {
+// 			display: flex;
+// 			align-items: center;
+// 			gap: 1.4rem;
+// 			color: $primary;
+
+
+// 			.slide-idx,
+// 			.action {
+// 				display: flex;
+// 				align-items: center;
+// 				font-size: 1.4rem;
+// 			}
+
+// 			.scroll,
+// 			.action {
+// 				flex: 1;
+// 			}
+
+// 			.action {
+// 				gap: 1.4rem;
+// 			}
+
+// 			.post-fix {
+// 				color: $text-primary;
+// 			}
+
+// 		}
+
+
+// 		h1 {
+// 			font-size: 3.8rem;
+// 			line-height: 1.5;
+// 			letter-spacing: 8px;
+// 			font-weight: unset;
+// 			padding-top: calc(80px + 5rem);
+// 			padding-bottom: calc(5rem);
+// 			padding-left: 10%;
+// 			padding-right: 10%;
+// 		}
+
+
+// 		// ! swiper overrides
+// 		.swiper-button-next,
+// 		.swiper-button-prev {
+// 			all: unset;
+// 		}
+
+// 		.swiper-button-next::after,
+// 		.swiper-button-prev::after {
+// 			font-size: 1em;
+// 			font-weight: 900;
+// 			cursor: pointer;
+// 		}
+
+// 		.swiper-button-disabled::after {
+// 			color: $inactive;
+// 			cursor: default;
+// 		}
+
+// 		.swiper-scrollbar-drag {
+// 			background: $primary;
+// 		}
+
+// 		.swiper-scrollbar-hero {
+// 			border-radius: 10px;
+// 			position: relative;
+// 			background: rgba(0, 0, 0, 0.1);
+// 			height: 4px;
+
+// 		}
+// 	}
+
+// 	.valueArea {
+// 		display: flex;
+// 		flex-direction: column;
+// 		gap: 5rem;
+// 		padding: $main-area-pad;
+// 		background-color: white;
+
+// 		.titleBox,
+// 		.statisticsBox {
+// 			max-width: $boundary;
+// 			width: 100%;
+// 			margin: auto;
+// 		}
+
+// 		.titleBox {
+// 			text-align: center;
+
+// 			h2 {
+// 				margin-bottom: 1.4rem;
+// 				font-size: 2.6rem;
+// 				font-weight: unset;
+// 				color: $text-abysmal
+// 			}
+
+// 			p {
+// 				font-size: 1.4rem;
+// 				color: $text-primary;
+// 			}
+// 		}
+
+// 		.statisticsBox {
+// 			display: flex;
+// 			justify-content: center;
+// 			gap: 5rem;
+// 			text-align: center;
+// 			font-variant-numeric: lining-nums proportional-nums;
+
+// 			.noDisplayCard {
+// 				display: flex;
+// 				flex-direction: column;
+// 				flex: 1 1 22rem;
+// 				// gap: 1rem;
+// 				padding: 0rem 3.75rem 3rem 3.75rem;
+// 				border-radius: 8px;
+// 				border: 1px solid #E5F1FF;
+// 				background: white;
+// 				box-shadow: 0px 0px 20px 0px rgba(19, 69, 246, 0.10);
+// 			}
+
+// 			.textBox {
+// 				display: flex;
+// 				flex-direction: column;
+// 				gap: 1rem;
+// 			}
+
+// 			span {
+// 				color: $primary;
+// 				font-family: 'Helvetica Neue', sans-serif;
+// 				font-size: 6.25rem;
+// 				font-weight: bolder;
+// 				line-height: calc(12rem);
+// 				letter-spacing: 0.02rem;
+// 			}
+
+// 			p.serveType {
+// 				margin-bottom: 0;
+// 				color: $text-abysmal;
+// 				font-size: 1.5rem;
+// 			}
+
+// 			p.typeDesc {
+// 				margin-bottom: 0;
+// 				color: $text-abysmal;
+// 				font-size: 1rem;
+// 			}
+
+// 			.horizontal-divider {
+// 				border-top: 1px solid #BCDBFE;
+// 			}
+// 		}
+// 	}
+
+// 	.securityArea {
+// 		padding: $main-area-pad;
+// 		overflow-x: hidden;
+
+// 		h2 {
+// 			margin-bottom: 1.5rem;
+// 			font-size: 2.6rem;
+// 			font-weight: unset;
+// 			color: $text-abysmal
+// 		}
+
+// 		.securityBox {
+// 			display: flex;
+// 			gap: 4rem;
+// 			max-width: $boundary;
+// 			margin: auto;
+// 		}
+
+// 		.securityBox .pyramid {
+// 			flex: 4
+// 		}
+
+// 		.securityBox .pyramid img {
+// 			height: 100%;
+// 			object-fit: contain;
+// 		}
+
+// 		.securityBox .narrative {
+// 			flex: 5;
+// 		}
+
+// 		.securityBoxSwiper {
+// 			position: relative;
+// 			display: none;
+// 		}
+
+// 		.securityBoxSwiper swiper {
+// 			width: 100%;
+// 		}
+
+// 		.info-card-security {
+// 			width: 100%;
+// 			display: flex;
+// 			flex-direction: column;
+// 			justify-content: center;
+// 			align-items: center;
+// 			gap: 2rem;
+// 		}
+
+// 		.info-card-security .pyramid {
+// 			text-align: center;
+// 		}
+
+
+// 		.info-card-security img {
+// 			width: 90%;
+// 			max-width: 450px;
+// 		}
+
+// 		.info-card-security .narrative {
+// 			max-width: 800px;
+// 		}
+
+// 		.info-card-security p,
+// 		.info-card-security li {
+// 			font-size: 1.2rem;
+// 			color: $text-primary;
+// 		}
+
+// 		.info-card-security ul {
+// 			list-style-type: disc;
+// 			padding-left: 20px;
+// 		}
+
+// 		.swiper-button-prev-security,
+// 		.swiper-button-next-security {
+// 			all: unset;
+// 			position: absolute;
+// 			z-index: 2;
+// 			top: 50%;
+// 			cursor: pointer;
+// 		}
+
+// 		.swiper-button-disabled {
+// 			cursor: unset;
+// 			filter: saturate(0%);
+// 		}
+
+// 		.swiper-button-prev-security {
+// 			left: 0;
+// 			transform: translate(-120%, -50%);
+// 		}
+
+// 		.swiper-button-next-security {
+// 			right: 0;
+// 			transform: translate(120%, -50%);
+// 		}
+
+// 		swiper.swiper-container {
+// 			overflow: visible;
+// 		}
+
+// 		.p-tabview-panel p,
+// 		.p-tabview-panel li {
+// 			font-size: 1.2rem;
+// 			color: $text-primary;
+// 		}
+
+// 		.p-tabview-panel ul {
+// 			list-style-type: disc;
+// 			padding-left: 20px;
+// 		}
+
+
+// 		// ** primeng tab overrides
+// 		.p-tabview .p-tabview-nav,
+// 		.p-tabview .p-tabview-nav li .p-tabview-nav-link,
+// 		.p-tabview .p-tabview-panels {
+// 			background: transparent;
+// 		}
+
+// 		.p-tabview .p-tabview-nav {
+// 			border-width: 0 0 3px 0;
+// 		}
+
+// 		.p-tabview .p-tabview-panels {
+// 			padding: 1.5rem 0 0 0;
+// 		}
+
+// 		.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+// 			padding: 1rem 2.5rem;
+// 			font-size: 1.2rem;
+// 			color: $text-abysmal;
+// 			font-weight: 400;
+// 			border-width: 0 0 0px 0;
+// 		}
+
+// 		.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+// 			border-color: $primary;
+// 			border-width: 0 0 3px 0;
+// 		}
+
+// 		.p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
+// 			box-shadow: unset;
+// 		}
+
+// 	}
+
+// 	.coreTechArea {
+// 		padding: $main-area-pad;
+// 		background-color: #FAFCFF;
+
+// 		.coreTechBox {
+// 			max-width: $boundary;
+// 			margin: auto;
+// 		}
+
+// 		.desc>span {
+// 			display: block;
+// 			margin-bottom: 0.6rem;
+// 			color: $text-orange;
+// 			font-size: 1.3rem;
+// 		}
+
+// 		.desc>h2 {
+// 			font-size: 2.6rem;
+// 			font-weight: 400;
+// 			color: $text-abysmal;
+// 		}
+
+// 		.desc>p {
+// 			color: $text-primary;
+// 		}
+
+// 		.desc>.overall {
+// 			font-size: 1.6rem;
+// 		}
+
+// 		.desc>.detail {
+// 			font-size: 1.2rem;
+// 			font-weight: 300;
+// 		}
+
+// 		.techCards {
+// 			flex-wrap: wrap;
+// 			gap: 1rem;
+// 			max-width: 1300px;
+// 			margin: auto;
+// 			margin-top: 2.8rem;
+// 		}
+
+// 		.techCards,
+// 		.techCard {
+// 			display: flex;
+// 		}
+
+// 		.techCard {
+// 			border: 1px solid #F7F8F9;
+// 			background: white;
+// 			flex: 1 0 40%;
+// 			padding: 0.75rem;
+// 			gap: 1rem;
+// 		}
+
+// 		.techCard>.imgBox {
+// 			aspect-ratio: 16/9;
+// 			width: 100%;
+// 			flex: 2;
+// 		}
+
+// 		.techCard>.imgBox img {
+// 			width: 100%;
+// 			height: 100%;
+// 			object-fit: cover;
+// 		}
+
+// 		.techCard>.techDesc {
+// 			flex: 3;
+// 			color: $text-primary;
+// 		}
+
+// 		.techCard>.techDesc h3 {
+// 			font-weight: 400;
+// 			font-size: 1.3rem;
+// 		}
+
+// 		.techCard>.techDesc p {
+// 			font-weight: 300;
+// 			font-size: 1rem;
+// 			margin-bottom: 0;
+// 		}
+// 	}
+
+// 	.solutionArea {
+// 		padding: $main-area-pad;
+// 		background-color: #F7F8F9;
+// 		overflow-y: hidden;
+
+// 		.solutionBox {
+// 			display: flex;
+// 			gap: 5rem;
+// 			max-width: $boundary;
+// 			max-height: 500px;
+// 			margin: auto;
+// 		}
+
+// 		.narrativeBox {
+// 			display: flex;
+// 			flex-direction: column;
+// 			justify-content: center;
+// 		}
+
+// 		.narrativeBox span {
+// 			display: block;
+// 			margin-bottom: 0.6rem;
+// 			color: $text-orange;
+// 			font-size: 1.3rem;
+// 		}
+
+// 		.narrativeBox h2 {
+// 			margin-bottom: 1.4rem;
+// 			font-size: 2.6rem;
+// 			font-weight: unset;
+// 			color: $text-abysmal
+// 		}
+
+// 		.narrativeBox p {
+// 			font-size: 1.4rem;
+// 			color: $text-primary;
+// 		}
+
+// 		.view-btn {
+// 			all: unset;
+// 			display: flex;
+// 			flex-basis: auto;
+// 			justify-content: center;
+// 			align-items: center;
+// 			align-self: flex-start;
+// 			gap: 0.8rem;
+// 			padding: 1rem 2rem;
+// 			margin-top: 3rem;
+// 			border-radius: 2rem;
+// 			border: 1px solid $primary;
+// 			cursor: pointer;
+// 			transition: 0.3s ease-in-out;
+// 		}
+
+// 		.view-btn span {
+// 			color: $primary;
+// 			margin-bottom: 0;
+// 			transition: 0.3s ease-in-out;
+// 			font-size: 1.2rem;
+// 		}
+
+// 		.view-btn i {
+// 			color: $primary;
+// 			transform: translateX(0%);
+// 			transition: 0.3s ease-in-out;
+// 		}
+
+// 		.view-btn:hover i {
+// 			transform: translateX(25%);
+// 		}
+
+// 		.view-btn:hover span {
+// 			color: $text-orange;
+// 		}
+
+
+// 		.narrativeBox {
+// 			flex: 1;
+// 		}
+
+// 		.solutionSwiperBox {
+// 			flex: 0 0 50%;
+// 			max-width: 500px;
+// 		}
+
+// 		.solutionGridBox {
+// 			display: none;
+// 		}
+
+// 		.solutionCard {
+// 			position: relative;
+// 			height: 100%;
+// 		}
+
+// 		.solutionCard img {
+// 			width: 100%;
+// 			height: 100%;
+// 			object-fit: cover;
+// 		}
+
+// 		.solutionCard::after {
+// 			position: absolute;
+// 			content: "";
+// 			top: 0;
+// 			left: 0;
+// 			width: 100%;
+// 			height: 100%;
+// 			background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.20));
+// 		}
+
+// 		.solutionCard .strip {
+// 			z-index: 2;
+// 			position: absolute;
+// 			display: flex;
+// 			flex-direction: column;
+// 			top: 0;
+// 			height: 100%;
+// 			width: 100%;
+// 			color: white;
+// 			font-size: 1.2rem;
+// 		}
+
+// 		.solutionCard .strip span {
+// 			padding: 1.5rem;
+// 			font-weight: 700;
+// 			text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.40);
+// 		}
+
+// 		.solutionCard .strip p {
+// 			padding: 1.5rem;
+// 			margin-top: auto;
+// 			margin-bottom: 0;
+// 			background: rgba(4, 13, 25, 0.20);
+// 		}
+
+// 		.swiper-container.swiper-container-vertical {
+// 			height: 100%;
+// 		}
+
+// 		swiper.swiper-container {
+// 			overflow: visible;
+// 		}
+// 	}
+
+// 	.collabArea {
+// 		padding: $yAxis calc($xAxis / 2);
+// 		background-color: white;
+
+// 		p {
+// 			margin-bottom: unset;
+// 		}
+
+
+// 		.collabBox {
+// 			max-width: $boundary;
+// 			margin: auto;
+// 			color: $text-abysmal;
+// 		}
+
+// 		.collabBox h2 {
+// 			text-align: center;
+// 			margin-bottom: 1.6rem;
+// 			font-weight: 400;
+// 			font-size: 2.6rem;
+// 		}
+
+// 		.collabThumbs {
+// 			margin-bottom: 2.5rem;
+// 		}
+
+// 		.collabThumbs span {
+// 			font-size: 1.4rem;
+// 			cursor: pointer;
+// 		}
+
+// 		.collabThumbs span.activeSlide {
+// 			color: $primary;
+// 		}
+
+
+// 		.collabThumbs .swiper-wrapper .swiper-slide {
+// 			position: relative;
+// 			flex: 1;
+// 		}
+
+// 		.collabThumbs .swiper-wrapper .swiper-slide:nth-child(1) {
+// 			padding: 1rem 2.4rem 1rem 0;
+// 			text-align: end;
+// 		}
+
+// 		.collabThumbs .swiper-wrapper .swiper-slide:nth-child(2) {
+// 			padding: 1rem 0 1rem 2.4rem;
+// 			text-align: start;
+// 		}
+
+// 		.collabThumbs .swiper-wrapper .swiper-slide:nth-child(1)::after {
+// 			position: absolute;
+// 			content: '';
+// 			right: 0;
+// 			top: 0;
+// 			height: 100%;
+// 			border-left: 1px solid #9FA9B7;
+// 		}
+
+// 		.collabSwiperBox .itemsCtn {
+// 			display: flex;
+// 			row-gap: 2.5rem;
+// 			flex-wrap: wrap;
+// 		}
+
+// 		.collabSwiperBox .itemsCtn .item {
+// 			display: flex;
+// 			flex: 0 0 25%;
+// 			align-items: center;
+// 			gap: 0.3rem;
+// 			padding: 0.4rem 0.5rem;
+// 			border-radius: 1rem;
+// 			cursor: pointer;
+// 		}
+
+// 		.collabSwiperBox .itemsCtn img {
+// 			background-color: white;
+// 			border-radius: calc(0.8rem);
+// 		}
+
+// 		.collabSwiperBox .itemsCtn .item:hover {
+// 			background-color: #F7F8F9;
+// 		}
+
+
+// 		.collabSwiperBox .moreBox .plainItemsBox {
+// 			display: flex;
+// 			flex-wrap: wrap;
+// 		}
+
+// 		.collabSwiperBox .moreBox .plainItemsBox p {
+// 			flex: 0 0 33.3%;
+// 			padding: 1rem 1rem;
+// 		}
+
+// 		.collabSwiperBox .moreBox {
+// 			margin-top: 2.5rem;
+
+// 			.p-accordion-header .p-accordion-header-link {
+// 				flex-direction: row-reverse;
+// 				justify-content: space-between;
+// 				background: #F5F9FF;
+// 				border: unset;
+// 				font-weight: 400;
+// 				color: $text-abysmal;
+
+// 			}
+
+// 			.p-accordion-header .p-accordion-header-link:focus {
+// 				box-shadow: unset;
+// 			}
+
+// 			.p-accordion-header .p-accordion-header-text {
+// 				font-size: 1.2rem;
+// 				font-weight: unset;
+// 			}
+
+// 			.p-accordion-content {
+// 				padding: unset;
+// 				background: unset;
+// 			}
+// 		}
+// 	}
+
+// 	// ** rwd
+
+// 	@media screen and (max-width: 1200px) {
+// 		.valueArea {
+// 			.statisticsBox {
+// 				gap: 2.5rem;
+
+// 				.noDisplayCard {
+// 					padding: 0rem 1.2rem 2.5rem 1.2rem;
+// 				}
+// 			}
+// 		}
+
+// 		.securityArea {
+// 			.securityBoxTab {
+// 				display: none;
+// 			}
+
+// 			.securityBoxSwiper {
+// 				display: block;
+
+// 			}
+// 		}
+
+// 		.collabArea {
+// 			.collabSwiperBox .itemsCtn .item {
+// 				flex: 0 0 33%;
+// 			}
+// 		}
+// 	}
+
+// 	@media screen and (max-width: 960px) {
+// 		.bannerArea {
+// 			.info-card .slide-info {
+// 				flex: 2;
+// 			}
+
+// 			.info-card .slide-info img {
+// 				flex: 1;
+// 			}
+
+// 			// ** 內文與圖片
+// 			.info-card {
+// 				h2 {
+// 					font-size: 1.8rem;
+// 				}
+
+
+// 				span {
+// 					font-size: 1.2rem;
+// 				}
+
+// 				a {
+// 					font-size: 1.2rem;
+// 				}
+// 			}
+
+// 			// ** 控制項
+// 			.ctr {
+// 				gap: 1rem;
+
+// 				.slide-idx,
+// 				.action {
+// 					font-size: 1.2rem;
+// 				}
+
+// 				.action {
+// 					gap: 1rem;
+// 				}
+// 			}
+
+// 			h1 {
+// 				font-size: 3.4rem;
+// 			}
+// 		}
+
+// 		.valueArea {
+// 			gap: 2.5rem;
+
+// 			.titleBox h2 {
+// 				font-size: 2.2rem;
+// 			}
+
+// 			.statisticsBox {
+// 				flex-direction: column;
+
+// 				.noDisplayCard {
+// 					padding: 0rem 2rem 1.2rem 2rem;
+// 					flex: unset;
+// 				}
+
+// 				.textBox {
+// 					gap: 0.4rem
+// 				}
+
+// 				span {
+// 					font-size: 5.25rem;
+// 					line-height: 7rem;
+// 				}
+
+// 			}
+// 		}
+
+// 		.securityArea {
+// 			h2 {
+// 				font-size: 2.2rem;
+// 			}
+// 		}
+
+// 		.coreTechArea {
+// 			.desc>span {
+// 				font-size: 1.3rem;
+// 			}
+
+// 			.desc>h2 {
+// 				font-size: 2.2rem;
+// 			}
+
+// 			.desc>p {
+// 				color: $text-primary;
+// 			}
+
+// 			.desc>.overall {
+// 				font-size: 1.4rem;
+// 			}
+
+// 			.desc>.detail {
+// 				font-size: 1rem;
+// 			}
+
+// 			.techCard {
+// 				flex-direction: column;
+// 				flex: 1 0 40%;
+// 				gap: 1rem;
+// 			}
+
+// 			.techCard>.imgBox {
+// 				flex: unset;
+// 				aspect-ratio: unset;
+// 				;
+// 			}
+
+// 			.techCard>.imgBox>img {
+// 				aspect-ratio: 16/9;
+// 			}
+
+// 			.techCard>.techDesc {
+// 				flex: unset;
+// 			}
+// 		}
+
+// 		.solutionArea {
+
+
+// 			.solutionBox {
+// 				flex-direction: column;
+// 				gap: 2rem;
+// 				max-height: unset;
+// 			}
+
+// 			.narrativeBox {
+// 				text-align: center;
+// 			}
+
+// 			.narrativeBox span {
+// 				font-size: 1.3rem;
+// 			}
+
+// 			.narrativeBox h2 {
+// 				font-size: 2.2rem;
+// 			}
+
+// 			.narrativeBox p {
+// 				font-size: 1.4rem;
+// 			}
+
+// 			.view-btn {
+// 				margin: auto;
+// 				margin-top: 1rem;
+// 			}
+
+// 			.view-btn span {
+// 				font-size: 1rem;
+// 			}
+
+
+// 			.solutionSwiperBox {
+// 				display: none;
+// 			}
+
+// 			.solutionGridBox {
+// 				display: flex;
+// 				flex-wrap: wrap;
+// 				justify-content: space-between;
+// 				gap: 1rem;
+// 			}
+
+// 			.solutionGridCard {
+// 				flex: 0 0 calc(50% - 0.5rem);
+// 			}
+
+// 			.solutionCard .strip span {
+// 				font-size: 1rem;
+// 			}
+
+// 			.solutionCard .strip p {
+// 				font-size: 0.9rem;
+// 			}
+
+// 		}
+
+// 		.collabArea {
+// 			.collabBox h2 {
+// 				font-size: 2.2rem;
+// 			}
+
+// 			.collabThumbs span {
+// 				font-size: 1.2rem;
+// 			}
+
+// 			.collabThumbs .swiper-wrapper .swiper-slide:nth-child(1) {
+// 				padding: 0.8rem 2.2rem 0.8rem 0;
+// 			}
+
+// 			.collabThumbs .swiper-wrapper .swiper-slide:nth-child(2) {
+// 				padding: 0.8rem 0 0.8rem 2.2rem;
+// 			}
+// 		}
+
+// 	}
+
+// 	@media screen and (max-width: 768px) {
+
+
+// 		.bannerArea {
+// 			padding-left: 0;
+// 			padding-right: 0;
+// 		}
+
+// 		.swiper-interact {
+// 			display: none;
+// 		}
+
+// 		.carouselBox>.swipeBox {
+// 			padding-left: 0 !important;
+// 			padding-right: 0 !important;
+// 			padding-bottom: 0 !important;
+// 			background-color: unset !important;
+// 		}
+
+// 		.carouselBox {
+// 			overflow: hidden;
+// 		}
+
+// 		.info-card {
+// 			display: flex;
+// 			flex-direction: column-reverse;
+// 			background-color: white;
+// 			border-radius: 0.8rem;
+// 			overflow: hidden;
+
+// 			h2 {
+// 				font-size: 1.8rem !important;
+// 			}
+
+
+// 			span {
+// 				font-size: 1.2rem !important;
+// 			}
+
+// 			a {
+// 				font-size: 1.2rem !important;
+// 			}
+// 		}
+
+// 		.slide-info {
+// 			margin-top: 0 !important;
+// 			padding: 1rem 1rem;
+// 		}
+
+// 		h1 {
+// 			font-size: 2.8rem !important;
+// 			padding-bottom: 2rem !important;
+// 			padding-top: 5rem !important;
+// 		}
+
+
+// 		.valueArea {
+// 			.statisticsBox {
+// 				span {
+// 					font-size: 4rem;
+// 				}
+
+// 				.textBox {
+// 					display: flex;
+// 					flex-direction: column;
+// 					gap: 0.4rem;
+// 				}
+
+// 				.noDisplayCard {
+// 					gap: 0rem;
+// 				}
+// 			}
+// 		}
+
+// 		.securityArea {
+
+// 			.info-card-security p,
+// 			.info-card-security li {
+// 				font-size: 1rem;
+// 			}
+
+// 			.swiper-button-prev-security,
+// 			.swiper-button-next-security {
+// 				width: 1.875rem;
+// 			}
+// 		}
+
+// 		.coreTechArea {
+// 			.techCard>.techDesc h3 {
+// 				font-size: 1.1rem;
+// 			}
+
+// 			.techCard>.techDesc p {
+// 				font-size: 0.8rem;
+// 			}
+// 		}
+
+// 		.solutionArea {
+// 			.solutionGridCard {
+// 				flex: 0 0 100%;
+// 			}
+
+// 		}
+
+// 		.collabArea {
+// 			.collabSwiperBox .itemsCtn .item {
+// 				flex: 0 0 50%;
+// 			}
+
+// 			.collabSwiperBox .itemsCtn .item p {
+// 				font-size: 0.9rem;
+// 			}
+
+// 			.collabSwiperBox .moreBox .plainItemsBox p {
+// 				font-size: 0.9rem;
+// 			}
+// 		}
+
+// 	}
+
+// 	@media screen and (max-width: 440px) {
+// 		.bannerArea {
+// 			.info-card {
+// 				img {
+// 					aspect-ratio: 5/3;
+// 				}
+
+// 			}
+
+// 			h2 {
+// 				font-size: 1.4rem !important;
+// 			}
+
+// 			h1 {
+// 				font-size: 2.4rem !important;
+// 				padding-bottom: 0;
+// 				padding-top: 80px;
+// 				letter-spacing: 4px;
+
+// 			}
+// 		}
+
+// 		.valueArea {
+// 			padding: $main-area-pad-xs;
+
+// 			.titleBox {
+// 				h2 {
+// 					font-size: 2.2rem;
+// 				}
+
+// 				p {
+// 					font-size: 1.2rem;
+// 				}
+// 			}
+
+// 			.statisticsBox {
+
+// 				.noDisplayCard {
+// 					flex-direction: row;
+// 					align-items: center;
+// 					gap: 1.2rem;
+// 					// height: 120px;
+// 					overflow: hidden;
+// 					text-align: left;
+// 					padding: 0 0.8rem 0 0.8rem;
+// 				}
+
+// 				.textBox {
+// 					flex: 1
+// 				}
+
+// 				div.digit {
+// 					text-align: center;
+// 				}
+
+// 				span {
+// 					min-width: 70px;
+// 					text-align: center;
+// 					font-size: 3rem;
+
+// 				}
+
+// 				p.serveType {
+// 					font-size: 1.1rem;
+// 				}
+
+// 				p.typeDesc {
+// 					font-size: 1rem;
+// 				}
+// 			}
+// 		}
+
+// 		.securityArea {
+// 			padding-top: $yAxis-narrow;
+// 			padding-bottom: $yAxis-narrow;
+// 		}
+
+// 		.coreTechArea {
+// 			padding: $main-area-pad-xs;
+// 		}
+
+// 		.solutionArea {
+// 			padding: $main-area-pad-xs;
+
+
+// 			.narrativeBox p {
+// 				font-size: 1.2rem;
+// 			}
+// 		}
+
+// 		.collabArea {
+// 			padding: $main-area-pad-xs;
+
+// 			.collabSwiperBox .itemsCtn img {
+// 				width: 50px;
+// 				aspect-ratio: 1/1;
+// 				object-fit: contain;
+// 			}
+// 		}
+// 	}
+// }

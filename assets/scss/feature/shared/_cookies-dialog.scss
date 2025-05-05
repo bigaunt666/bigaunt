@@ -1,0 +1,18 @@
+@import "../../../scss/abstracts/variables";
+
+#cookiesDialog {
+    .btn {
+        height: 40px;
+        width: 120px;
+        position: relative;
+        border: none;
+        border-radius: 9999px;
+
+
+        &-refuse {}
+
+        &-accept {}
+
+
+    }
+}

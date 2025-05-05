@@ -1,0 +1,149 @@
+// #solutionPage_IOT {
+// 	@import './base';
+// 	.bannerArea {
+// 		.itemsBox {
+// 			width: 100%;
+// 			max-width: 1200px;
+// 			margin: auto;
+// 			display: flex;
+// 			justify-content: space-between;
+// 			margin-top: 6em;
+// 		}
+// 		.item {
+// 			width: 31%;
+// 		}
+// 		.imgBox {
+// 			border-radius: 1em;
+// 			overflow: hidden;
+// 		}
+// 		.wordsBox {
+// 			h3 {
+// 				font-weight: 700;
+// 				font-size: 1.5em;
+// 				line-height: 117%;
+// 				letter-spacing: 0.1em;
+// 				color: #ffffff;
+// 				margin-top: 16px;
+// 				margin-bottom: 8px;
+// 			}
+// 			p {
+// 				margin: initial;
+// 				font-weight: 500;
+// 				font-size: 1.25em;
+// 				line-height: 140%;
+// 				letter-spacing: 0.12em;
+
+// 				color: #e1e6ef;
+// 			}
+// 		}
+// 	}
+// 	.content {
+// 		padding-bottom: 0em;
+// 	}
+// 	.contentBox {
+// 		.abstractBox {
+// 			margin-bottom: 5em;
+// 		}
+// 	}
+// 	.exampleArea {
+// 		.item {
+// 			.CoInfoBox {
+// 				background-repeat: no-repeat;
+// 				background-size: auto 100%;
+// 				background-position: center center;
+// 			}
+// 		}
+// 		.item_1 {
+// 			.CoInfoBox {
+// 				background-image: url(../../../images/solutionPages/solution/IoT/IoT_benefit_1.png);
+// 			}
+// 		}
+// 		.item_2 {
+// 			.CoInfoBox {
+// 				background-image: url(../../../images/solutionPages/solution/IoT/IoT_benefit_2.png);
+// 			}
+// 		}
+// 		.item_3 {
+// 			.CoInfoBox {
+// 				background-image: url(../../../images/solutionPages/solution/IoT/IoT_benefit_3.png);
+// 			}
+// 		}
+// 		.item_4 {
+// 			.CoInfoBox {
+// 				background-image: url(../../../images/solutionPages/solution/IoT/IoT_benefit_4.png);
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 1080px) {
+// 		.content {
+// 		}
+// 	}
+// 	@media screen and (max-width: 1023px) {
+// 	}
+// 	@media screen and (max-width: 768px) {
+// 		.content {
+// 			.titleBox {
+// 				text-align: center;
+// 				margin-bottom: 3.875em;
+// 				h2 {
+// 					font-size: 2em;
+// 					font-weight: 700;
+// 					margin-bottom: 0.5em;
+// 					letter-spacing: 0.12em;
+// 				}
+// 				p {
+// 					font-size: 1.25em;
+// 					letter-spacing: 0.1em;
+// 					line-height: 1.5em;
+// 					color: rgba(188, 200, 224, 1);
+// 				}
+// 			}
+// 			.itemsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 440px) {
+// 		.bannerArea {
+// 			.itemsBox {
+// 				justify-content: center;
+// 				flex-wrap: wrap;
+// 				.item {
+// 					width: 95%;
+// 					margin-bottom: 2em;
+// 				}
+// 			}
+// 		}
+// 		.content {
+// 			.titleBox {
+// 				text-align: center;
+// 				margin-bottom: 3.875em;
+// 				h2 {
+// 					font-size: 2em;
+// 					font-weight: 700;
+// 					margin-bottom: 0.5em;
+// 					letter-spacing: 0.12em;
+// 				}
+// 				p {
+// 					font-size: 1.25em;
+// 					letter-spacing: 0.1em;
+// 					line-height: 1.5em;
+// 					color: rgba(188, 200, 224, 1);
+// 				}
+// 			}
+// 			.itemsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+// 			.abstractBox {
+// 				flex-direction: column-reverse;
+// 			}
+// 		}
+// 		.evolutionArea {
+// 			.abstractBox {
+// 				flex-direction: column-reverse;
+// 			}
+// 		}
+// 	}
+// }

@@ -1,0 +1,64 @@
+// INFO: 專門 overwrite bootstrap4 CSS
+// .smart-style-2 nav ul li a {
+// 	font-size: 17px !important;
+// }
+
+// .minified nav > ul > li > a > .menu-item-parent {
+// 	font-size: 17px;
+// }
+
+// 必填欄圍 * 號
+code {
+	// top: 50%;
+	// transform: translateY(-50%);
+	left: 0px;
+	background-color: #f9f2f4;
+}
+
+label,
+p {
+	margin-bottom: 0;
+}
+
+// 置頂 及 附健下載用 -> 沿用 BS-3
+.label {
+	display: inline;
+	padding: 0.2em 0.6em 0.3em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 0.25em;
+}
+
+// 使用者資訊box
+.dropdown-menu {
+	border: 0;
+	box-shadow: 0 10px 50px 0 rgb(0 0 0 / 20%);
+	border-radius: 0.875rem;
+	background-color: $color-primary;
+	transition: all 0.15s linear;
+}
+
+.dropdown-menu .dropdown-item {
+	color: $color-white;
+	font-weight: 400;
+	padding: 10px 20px;
+	margin-top: 5px;
+	transition: all 0.15s linear;
+
+	&:hover {
+		background-color: rgba(50, 88, 159, 0.7);
+		color: $color-white;
+		padding-left: calc(1em + 10px);
+	}
+}
+
+// 表單必填欄位 label
+.required {
+	font-weight: 700;
+	color: #2850b4;
+}

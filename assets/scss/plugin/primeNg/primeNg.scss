@@ -1,0 +1,175 @@
+@import "../../../scss/abstracts/variables";
+
+
+.p-button:focus {
+	box-shadow: unset;
+}
+
+
+// - p-input style
+.p-inputtext,
+.p-dropdown,
+.p-multiselect {
+	background-color: transparent;
+	border: 1px solid $input-border;
+	border-radius: 6px;
+	color: $text-primary;
+
+	&::placeholder,
+	.p-placeholder,
+	.p-dropdown-label.p-placeholder,
+	.p-multiselect-label.p-placeholder {
+		// color: $input-placeholder;
+		opacity: 1;
+	}
+
+	.p-multiselect-label {
+		line-height: 35px;
+		font-size: 14px;
+		padding: 1px 7px;
+		padding-right: 0px;
+		height: 35px !important;
+	}
+
+	&:disabled {
+		// background-color: $input-disabled;
+		opacity: 0.8;
+	}
+
+	&.p-disabled {
+		// background-color: $input-disabled;
+		opacity: 0.8;
+
+		.p-dropdown-trigger {
+			visibility: hidden;
+		}
+	}
+}
+
+
+.p-inputgroup-addon {
+	background: unset;
+}
+
+.p-inputgroup-addon:first-child {
+	border-radius: 6px 0 0 6px;
+}
+
+.p-inputgroup input:last-child {
+	border-radius: 0px 6px 6px 0;
+}
+
+.p-inputtext:enabled:focus {
+	box-shadow: unset;
+}
+
+p-chips,
+.p-chips,
+.p-dropdown,
+.p-multiselect,
+.p-calendar,
+.p-inputnumber,
+.p-password,
+.p-inputtext {
+	width: 100%;
+}
+
+p-inputnumber,
+.p-inputnumber {
+	width: 100%;
+}
+
+.p-inputtext {
+	font-size: 1rem;
+	padding: 7px;
+	height: auto !important;
+	color: $text-abysmal;
+}
+
+
+.p-dialog {
+	background-color: $bgc-primary;
+	border-radius: 1.5rem;
+
+	.p-dialog-header {
+		padding: 2rem;
+		background-color: transparent;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		font-weight: 500;
+		color: $text-abysmal;
+		line-height: 26px;
+
+		.p-dialog-title {
+			font-size: 2rem;
+			font-weight: 700;
+			line-height: unset;
+			letter-spacing: 0rem;
+		}
+
+		.p-dialog-header-icon {
+			color: $text-abysmal;
+		}
+	}
+
+	.p-dialog-content {
+		padding: 2rem;
+		padding-bottom: 0;
+		padding-top: 0;
+		background-color: transparent;
+		border-bottom-right-radius: 1.5rem;
+		border-bottom-left-radius: 1.5rem;
+		color: $text-abysmal;
+
+		.content-box {
+			padding: 10px 16px;
+			border-radius: 10px;
+		}
+	}
+
+	.p-dialog-footer {
+		padding: 18px 30px 18px 30px;
+		background-color: transparent;
+		border-bottom-right-radius: 1.5rem;
+		border-bottom-left-radius: 1.5rem;
+		color: $text-abysmal;
+
+		button {
+			margin: 0;
+		}
+	}
+
+	&.p-confirm-dialog .p-confirm-dialog-message {
+		margin-left: 0;
+	}
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+    background: #ffffff;
+}
+
+
+.p-paginator {
+
+	.p-paginator-first,
+	.p-paginator-prev,
+	.p-paginator-next,
+	.p-paginator-last,
+	.p-paginator-pages .p-paginator-page {
+		border-radius: 9999px;
+	}
+
+	.p-paginator-pages .p-paginator-page.p-highlight {
+		color: $primary;
+	}
+
+	button:focus {
+		box-shadow: unset
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.p-dialog .p-dialog-content {
+		// padding: 2rem 1.5rem;
+	}
+}

@@ -1,0 +1,46 @@
+{
+  "decideType": {
+    "Cloud": {
+      "2.5D": "Cloud-2.5D",
+      "active": "Cloud-active",
+      "default": "Cloud-default"
+    },
+    "DB": { "2.5D": "DB-2.5D", "active": "DB-active", "default": "DB-default" },
+    "Law": {
+      "2.5D": "Law-2.5D",
+      "active": "Law-active",
+      "default": "Law-default"
+    },
+    "Visual": {
+      "2.5D": "Visual-2.5D",
+      "active": "Visual-active",
+      "default": "Visual-default"
+    },
+    "IoT": {
+      "2.5D": "IoT-2.5D",
+      "active": "IoT-active",
+      "default": "IoT-default"
+    },
+    "AI": { "2.5D": "AI-2.5D", "active": "AI-active", "default": "AI-default" },
+    "Predictive": {
+      "2.5D": "Predictive-2.5D",
+      "active": "Predictive-active",
+      "default": "Predictive-default"
+    },
+    "Blockchain": {
+      "2.5D": "Blockchain-2.5D",
+      "active": "Blockchain-active",
+      "default": "Blockchain-default"
+    },
+    "Cyber": {
+      "2.5D": "Cyber-2.5D",
+      "active": "Cyber-active",
+      "default": "Cyber-default"
+    },
+    "Nature": {
+      "2.5D": "Nature-2.5D",
+      "active": "Nature-active",
+      "default": "Nature-default"
+    }
+  }
+}

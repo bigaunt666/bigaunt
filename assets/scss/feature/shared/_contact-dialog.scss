@@ -1,0 +1,49 @@
+@import "../../../scss/abstracts/variables";
+
+#contactDialog {
+    form .field-cus {
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 0;
+    }
+
+    form .field-cus>input,
+    form .field-cus>div,
+    form .field-cus>textarea {
+        flex: 1 1 80.97%;
+    }
+
+    label {
+        // flex-basis: 5.3rem;
+        // flex-shrink: 0;
+        flex: 0 0 8rem;
+    }
+
+    .submit-btn {
+        position: relative;
+        padding: 0.75rem 5rem;
+        margin-bottom: 2rem;
+        background-color: #DADEE3;
+        border-radius: 9999px;
+        color: #465161;
+        border: none;
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: unset;
+        letter-spacing: 0rem;
+    }
+
+    p.intro {
+        margin-bottom: 2rem;
+        font-weight: 300;
+        font-size: 1.25rem
+    }
+
+    span.required {
+        color: #FF3D32;
+    }
+
+    span.required.hidden {
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,28 @@
+.rw-conversation-container {
+	.rw-response {
+		background-color: #999 !important;
+	}
+}
+.rw-conversation-container {
+	.rw-message-text {
+		.rw-markdown p {
+			color: #fff;
+		}
+	}
+}
+.rw-conversation-container {
+	.rw-reply {
+		text-align: start !important;
+		background-color: #b9893f !important;
+		border-radius: 20px !important;
+		border: unset !important;
+	}
+}
+.rw-conversation-container {
+	.rw-replies {
+		margin: unset !important;
+	}
+}
+.rw-launcher {
+	box-shadow: unset !important;
+}

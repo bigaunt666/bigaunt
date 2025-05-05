@@ -1,0 +1,472 @@
+[
+    {
+        "Type": "government",
+        "Name": "國家安全局第三處",
+        "Sort": "front"
+    },
+    {
+        "Type": "government",
+        "Name": "司法院",
+        "Sort": "front"
+    },
+    {
+        "Type": "government",
+        "Name": "外交部",
+        "Sort": "front"
+    },
+    {
+        "Type": "government",
+        "Name": "國防部海軍司令部-戰鬥系統處",
+        "Sort": "front"
+    },
+    {
+        "Type": "government",
+        "Name": "臺灣高等檢察署",
+        "Sort": "front"
+    },
+    {
+        "Type": "government",
+        "Name": "海洋委員會海巡署",
+        "Sort": "front"
+    },
+    {
+        "Type": "government",
+        "Name": "法務部調查局",
+        "Sort": "front"
+    },
+    {
+        "Type": "government",
+        "Name": "內政部移民署",
+        "Sort": "front"
+    },
+    {
+        "Type": "government",
+        "Name": "法務部廉政署",
+        "Sort": "front"
+    },
+    {
+        "Type": "government",
+        "Name": "國家通訊傳播委員會-電信警察隊",
+        "Sort": "front"
+    },
+    {
+        "Type": "government",
+        "Name": "國家中山科學研究院",
+        "Sort": "front"
+    },
+    {
+        "Type": "government",
+        "Name": "台北市政府警察局",
+        "Sort": "front"
+    },
+    {
+        "Type": "government",
+        "Name": "國防部政治作戰局",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "國防部軍事安全總隊",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "國家中央研究院",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "海洋委員會海巡署偵防分署",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "海洋委員會海巡署艦隊分署",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "法務部行政執行署新北分署",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "內政部警政署刑事警察局",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "內政部警政署航空警察局",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "內政部警政署保安警察第三總隊",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "內政部警政署保安警察第六總隊",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "個人資料保護委員會籌備處",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "基隆市政府警察局",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "苗栗市政府警察局",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "嘉義市政府警察局",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "花蓮縣政府警察局",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "金門縣警察局",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "財團法人工業技術研究院",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "財團法人國家實驗研究院國家高速網路與計算中心",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "國立中央大學",
+        "Sort": "back"
+    },
+    {
+        "Type": "government",
+        "Name": "國立虎尾科技大學語言中心",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "Dell Global B.V.(Singapore Branch)",
+        "Sort": "front"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "中華電信股份有限公司",
+        "Sort": "front"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "中華電信股份有限公司企業客戶分公司",
+        "Sort": "front"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "元大證券股份有限公司",
+        "Sort": "front"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "宏碁資訊服務股份有限公司",
+        "Sort": "front"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "凌群電腦股份有限公司",
+        "Sort": "front"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "凌網科技股份有限公司",
+        "Sort": "front"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "桃園國際機場股份有限公司",
+        "Sort": "front"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "遠傳電信股份有限公司系統整合分公司",
+        "Sort": "front"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "遠通電收股份有限公司",
+        "Sort": "front"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "臺灣恩益禧股份有限公司",
+        "Sort": "front"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "泛亞工程建設股份有限公司",
+        "Sort": "front"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "臺灣恩悌悌數據股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "邁達特數位股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "區塊科技股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "關貿網路股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "Elevate partner program",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "Realtek informatics telecom joint stock company",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "妙管家環保工程事業股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "台灣智慧光網股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "研鼎智能股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "法源資訊股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "麥奇數位股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "台灣人工智慧實驗室",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "方喬科技股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "巨舟電腦股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "禾滔科技股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "立寶科技股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "立騰國際運通有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "艾斯特物聯科技股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "易起數位科技股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "東風速運有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "東風鑫航空貨運承攬有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "高田科技有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "創逸科技服務有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "貼心物流國際有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "逸凡科技股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "雅婷智慧股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "愛酷智能科技股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "群冠高科股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "達運光電股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "頡鼎工程有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "闊格國際股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "耀天科技股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "鑒真數位有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "天朗航空貨運承攬有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "世新有線電視股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "台灣癌症研究學會",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "立捷航空貨運承攬有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "佳羿航空貨運承攬有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "東方航空貨運承攬有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "東慶國際運通有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "昶益興業有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "倉勝航空貨運承攬有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "祥和國際運通有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "翔和國際運通有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "詎渢航空貨運承攬有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "群翔國際運通有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "詮鼎數位股份有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "輝映科技有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "鴻陸宇有限公司",
+        "Sort": "back"
+    },
+    {
+        "Type": "enterprise",
+        "Name": "穩速航空貨運承攬有限公司",
+        "Sort": "back"
+    }
+]

@@ -1,0 +1,235 @@
+// #solutionPage_Predictive {
+// 	@import './base';
+// 	.content {
+// 		padding-top: 0em;
+// 		padding-bottom: 0em;
+// 	}
+// 	.stepArea.contentBox {
+// 		display: flex;
+// 		flex-wrap: wrap;
+// 		justify-content: space-around;
+// 		.abstractBox {
+// 			display: flex;
+// 			flex-direction: column-reverse;
+// 			justify-content: flex-end;
+// 			width: 30%;
+// 			margin: initial;
+// 			margin-bottom: 3em;
+// 			.wordsBox,
+// 			.imgBox {
+// 				width: 100%;
+// 			}
+// 			.imgBox {
+// 				min-height: 280px;
+// 				@extend %backgroundImgSetting;
+// 				background-size: auto 100%;
+// 				border-radius: 0.5em;
+// 			}
+// 			h3 {
+// 				font-weight: 600;
+// 				font-size: 2em;
+// 				line-height: 131%;
+// 				text-align: start;
+// 				letter-spacing: 0.12em;
+// 				color: #e1e6ef;
+// 				margin-top: 0.75em;
+// 				margin-bottom: 0.375em;
+// 				@media screen and (max-width: 1080px) {
+// 					font-size: 1.5em;
+// 				}
+// 			}
+// 			p {
+// 				font-weight: 500;
+// 				font-size: 1.5em;
+// 				line-height: 175%;
+// 				letter-spacing: 0.04em;
+// 				color: #e1e6ef;
+// 				@media screen and (max-width: 1080px) {
+// 					font-size: 1.25em;
+// 				}
+// 			}
+// 		}
+// 		.abstractBox.row-2 {
+// 			width: 46%;
+// 		}
+// 		.abstractBox.Step1 {
+// 			.imgBox {
+// 				background-image: url(../../../images/solutionPages/solution/predictive/Pre_step_1.png);
+// 			}
+// 		}
+// 		.abstractBox.Step2 {
+// 			.imgBox {
+// 				background-image: url(../../../images/solutionPages/solution/predictive/Pre_step_2.png);
+// 			}
+// 		}
+// 		.abstractBox.Step3 {
+// 			.imgBox {
+// 				background-image: url(../../../images/solutionPages/solution/predictive/Pre_step_3.png);
+// 			}
+// 		}
+// 		.abstractBox.Step4 {
+// 			.imgBox {
+// 				background-image: url(../../../images/solutionPages/solution/predictive/Pre_step_4.png);
+// 			}
+// 		}
+// 		.abstractBox.Step5 {
+// 			.imgBox {
+// 				background-image: url(../../../images/solutionPages/solution/predictive/Pre_step_5.png);
+// 			}
+// 		}
+// 	}
+// 	.applyArea {
+// 		.item_1 {
+// 			background-image: url(../../../images/solutionPages/solution/predictive/Pre_3.png);
+// 		}
+// 		.item_2 {
+// 			background-image: url(../../../images/solutionPages/solution/predictive/Pre_4.png);
+// 		}
+// 		.item_3 {
+// 			background-image: url(../../../images/solutionPages/solution/predictive/Pre_5.png);
+// 		}
+// 	}
+
+// 	.benefitBox {
+// 		.titleBox {
+// 			width: 40%;
+// 		}
+// 		.itemsBox {
+// 			width: 60%;
+// 			margin: initial;
+// 			.items {
+// 				padding: initial;
+// 			}
+// 		}
+// 	}
+// 	.exampleArea {
+// 		.mySwiper.row-2 {
+// 			.swiper-slide {
+// 				&:nth-child(1) {
+// 					justify-content: flex-end;
+// 				}
+// 				&:nth-child(2) {
+// 					justify-content: flex-start;
+// 				}
+// 			}
+// 		}
+// 		.item {
+// 			.CoInfoBox {
+// 				background-repeat: no-repeat;
+// 				background-size: auto 100%;
+// 				background-position: center center;
+// 			}
+// 		}
+// 		.item_1 {
+// 			.CoInfoBox {
+// 				background-image: url(../../../images/solutionPages/solution/predictive/Pre_example_1.png);
+// 			}
+// 		}
+// 		.item_2 {
+// 			.CoInfoBox {
+// 				background-image: url(../../../images/solutionPages/solution/predictive/Pre_example_2.png);
+// 			}
+// 		}
+// 	}
+
+// 	@media screen and (max-width: 1080px) {
+// 	}
+// 	@media screen and (max-width: 1023px) {
+// 		.stepArea.contentBox {
+// 			.abstractBox {
+// 				width: 46%;
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 768px) {
+// 		.content {
+// 			.titleBox {
+// 				text-align: center;
+// 				margin-bottom: 3.875em;
+// 				h2 {
+// 					font-size: 2em;
+// 					font-weight: 700;
+// 					margin-bottom: 0.5em;
+// 					letter-spacing: 0.12em;
+// 				}
+// 				p {
+// 					font-size: 1.25em;
+// 					letter-spacing: 0.1em;
+// 					line-height: 1.5em;
+// 					color: rgba(188, 200, 224, 1);
+// 				}
+// 			}
+// 			.itemsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+// 		}
+// 		.stepArea.contentBox {
+// 			.abstractBox {
+// 				width: 46%;
+// 			}
+// 			.abstractBox.row-2 {
+// 				width: 46%;
+// 			}
+// 		}
+// 		.benefitBox {
+// 			flex-direction: column;
+// 			padding-left: 1em;
+// 			padding-right: 1em;
+// 			.titleBox {
+// 				margin: initial;
+// 				h2 {
+// 					font-size: 2.625em;
+// 					font-weight: 700;
+// 				}
+// 			}
+// 			.itemsBox {
+// 				width: 80%;
+// 			}
+// 		}
+// 		.applyArea {
+// 			.itemsBox {
+// 				flex-direction: row;
+// 			}
+// 			.item {
+// 				width: 45%;
+// 				background-size: auto 100%;
+// 			}
+// 			.abstract {
+// 				min-height: 17.5em;
+// 			}
+// 		}
+// 		.exampleArea {
+// 			.mySwiper.row-2 {
+// 				.swiper-slide {
+// 					&:nth-child(1),
+// 					&:nth-child(2) {
+// 						justify-content: center;
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 440px) {
+// 		.content {
+// 			.titleBox {
+// 				text-align: center;
+// 				margin-bottom: 3.875em;
+// 				h2 {
+// 					font-size: 2em;
+// 					font-weight: 700;
+// 					margin-bottom: 0.5em;
+// 					letter-spacing: 0.12em;
+// 				}
+// 				p {
+// 					font-size: 1.25em;
+// 					letter-spacing: 0.1em;
+// 					line-height: 1.5em;
+// 					color: rgba(188, 200, 224, 1);
+// 				}
+// 			}
+// 			.itemsBox {
+// 				flex-direction: column;
+// 			}
+// 		}
+// 	}}

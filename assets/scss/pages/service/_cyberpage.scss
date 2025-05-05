@@ -1,0 +1,224 @@
+// #solutionPage_Cyber {
+// 	@import './base';
+// 	em.hightlight {
+// 		color: #fbe493;
+// 		font-style: initial;
+// 	}
+// 	.contentBox {
+// 		> .wordsBox {
+// 			margin: 4.5em 2em;
+// 			margin-bottom: 3em;
+// 			p {
+// 				font-size: 1.5em;
+// 				font-weight: 400;
+// 				letter-spacing: 0.12em;
+// 				line-height: 1.5em;
+// 				color: #e1e6ef;
+// 				text-align: left;
+// 			}
+// 		}
+// 		> .titleBox > h4 {
+// 			font-weight: 700;
+// 			font-size: 2.25em;
+// 			line-height: 130%;
+// 			text-align: justify;
+// 			letter-spacing: 0.12em;
+// 			color: #ffffff;
+// 		}
+// 	}
+// 	.Icons {
+// 		margin-top: 5.625em;
+// 		padding-left: 1em;
+// 		padding-right: 1em;
+// 		h3 {
+// 			text-align: start;
+// 			font-size: 2em;
+// 			font-weight: 600;
+// 			line-height: 100%;
+// 			letter-spacing: 0.12em;
+// 			color: #ffffff;
+// 			@media screen and (max-width: 1023px) {
+// 				font-size: 1.5em;
+// 			}
+// 		}
+// 		p {
+// 			font-weight: 500;
+// 			font-size: 1.5em;
+// 			line-height: 150%;
+// 			letter-spacing: 0.12em;
+// 			color: #e1e6ef;
+// 			text-align: start;
+// 		}
+// 		.titleBox {
+// 			margin-bottom: unset;
+// 		}
+// 		.itemsBox {
+// 			.item {
+// 				width: 32%;
+// 				h4 {
+// 					font-weight: 500;
+// 					font-size: 1.375em;
+// 					line-height: 120%;
+// 					text-align: center;
+// 					letter-spacing: 0.12em;
+// 					color: #e1e6ef;
+// 				}
+// 			}
+// 			.item_1 {
+// 				.imgBox {
+// 					background-image: url(../../../../assets/images/solutionPages/solution/cyber/cyber_icon_1.svg);
+// 				}
+// 			}
+// 			.item_2 {
+// 				.imgBox {
+// 					background-image: url(../../../../assets/images/solutionPages/solution/cyber/cyber_icon_2.svg);
+// 				}
+// 			}
+// 			.item_3 {
+// 				.imgBox {
+// 					background-image: url(../../../../assets/images/solutionPages/solution/cyber/cyber_icon_3.svg);
+// 				}
+// 			}
+// 			.item_4 {
+// 				.imgBox {
+// 					background-image: url(../../../../assets/images/solutionPages/solution/cyber/cyber_icon_4.svg);
+// 				}
+// 			}
+// 			.item_5 {
+// 				.imgBox {
+// 					background-image: url(../../../../assets/images/solutionPages/solution/cyber/cyber_icon_5.svg);
+// 				}
+// 			}
+// 			.item_6 {
+// 				.imgBox {
+// 					background-image: url(../../../../assets/images/solutionPages/solution/cyber/cyber_icon_6.svg);
+// 				}
+// 			}
+// 		}
+// 	}
+// 	.applyArea {
+// 		.item {
+// 			width: 45%;
+// 		}
+// 		.item-row-3 {
+// 			width: 32%;
+// 		}
+// 		.item-row-2 {
+// 			width: 48%;
+// 		}
+// 	}
+// 	.applyArea_1 {
+// 		.item_1 {
+// 			background-image: url(../../../images/solutionPages/solution/cyber/cyber_apply_1.png);
+// 		}
+// 		.item_2 {
+// 			background-image: url(../../../images/solutionPages/solution/cyber/cyber_apply_2.png);
+// 		}
+// 		.item_3 {
+// 			background-image: url(../../../images/solutionPages/solution/cyber/cyber_apply_3.png);
+// 		}
+// 		.item_4 {
+// 			background-image: url(../../../images/solutionPages/solution/cyber/cyber_apply_4.png);
+// 		}
+// 	}
+// 	.applyArea_2 {
+// 		.item_1 {
+// 			background-image: url(../../../images/solutionPages/solution/cyber/cyber_apply_5.png);
+// 		}
+// 		.item_2 {
+// 			background-image: url(../../../images/solutionPages/solution/cyber/cyber_apply_6.png);
+// 		}
+// 		.item_3 {
+// 			background-image: url(../../../images/solutionPages/solution/cyber/cyber_apply_7.png);
+// 		}
+// 		.item_4 {
+// 			background-image: url(../../../images/solutionPages/solution/cyber/cyber_apply_8.png);
+// 		}
+// 		.item_5 {
+// 			background-image: url(../../../images/solutionPages/solution/cyber/cyber_apply_9.png);
+// 		}
+// 		.item_6 {
+// 			background-image: url(../../../images/solutionPages/solution/cyber/cyber_apply_10.png);
+// 		}
+// 		.item_7 {
+// 			background-image: url(../../../images/solutionPages/solution/cyber/cyber_apply_11.png);
+// 		}
+// 		.item_8 {
+// 			background-image: url(../../../images/solutionPages/solution/cyber/cyber_apply_12.png);
+// 		}
+// 	}
+// 	.exampleArea {
+// 		.item {
+// 			.CoInfoBox {
+// 				background-repeat: no-repeat;
+// 				background-size: auto 100%;
+// 				background-position: center center;
+// 			}
+// 		}
+// 		.item_1 {
+// 			.CoInfoBox {
+// 				background-image: url(../../../images/solutionPages/solution/cyber/cyber_example_1.png);
+// 			}
+// 		}
+// 	}
+
+// 	@media screen and (max-width: 1080px) {
+// 	}
+// 	@media screen and (max-width: 1023px) {
+// 	}
+// 	@media screen and (max-width: 768px) {
+// 		.content {
+// 			.itemsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+// 		}
+// 		.Icons {
+// 			.itemsBox {
+// 				flex-direction: row;
+// 				.item {
+// 					width: 48%;
+// 				}
+// 			}
+// 		}
+// 		.applyArea {
+// 			.itemsBox {
+// 				flex-direction: row;
+// 				.item-row-3 {
+// 					width: 48%;
+// 				}
+// 				.item-row-2 {
+// 					width: 48%;
+// 				}
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 440px) {
+// 		.content {
+// 			.itemsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+
+// 			.abstractBox {
+// 				flex-direction: column-reverse;
+// 			}
+// 		}
+// 		.Icons {
+// 			.itemsBox {
+// 				.item {
+// 					width: 90%;
+// 				}
+// 			}
+// 		}
+// 		.applyArea {
+// 			.itemsBox {
+// 				flex-direction: row;
+// 			}
+// 			.item {
+// 				width: 95% !important;
+// 				background-size: 100% 100%;
+// 			}
+// 		}
+// 	}
+// }

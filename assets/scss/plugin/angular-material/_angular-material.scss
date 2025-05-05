@@ -1,0 +1,46 @@
+// // INFO:以下為原始 NIA-LIMS 的 material 樣式
+
+// // @import '~material-design-icons/iconfont/material-icons.css';
+// // @include angular-material-theme($smartadmin-angular-seed-theme);
+
+// // Custom Theming for Angular Material
+// // For more information: https://material.angular.io/guide/theming
+// @import '~@angular/material/theming';
+// // Plus imports for other components in your app.
+
+// // Include the common styles for Angular Material. We include this here so that you only
+// // have to load a single css file for Angular Material in your app.
+// // Be sure that you only ever include this mixin once!
+
+// $my-app-primary: mat-palette($mat-blue, 800);
+// $my-app-accent: mat-palette($mat-cyan, 500);
+// $my-app-warn: mat-palette($mat-red, 500);
+// $my-app-theme: mat-light-theme($my-app-primary, $my-app-accent, $my-app-warn);
+
+// $smartadmin-angular-seed-primary: mat-palette($mat-indigo);
+// $smartadmin-angular-seed-accent: mat-palette($mat-pink, A200, A100, A400);
+// // The warn palette is optional (defaults to red).
+// $smartadmin-angular-seed-warn: mat-palette($mat-red);
+// // Create the theme object (a Sass map containing all of the palettes).
+// $smartadmin-angular-seed-theme: mat-light-theme(
+// 	$smartadmin-angular-seed-primary,
+// 	$smartadmin-angular-seed-accent,
+// 	$smartadmin-angular-seed-warn
+// );
+
+// @include mat-core();
+// @include angular-material-theme($my-app-theme);
+
+// .mat-flat-button.mat-accent,
+// .mat-raised-button.mat-accent,
+// .mat-fab.mat-accent,
+// .mat-mini-fab.mat-accent {
+// 	color: rgba(255, 255, 255, 1);
+// }
+// .mat-chip.mat-standard-chip.mat-chip-selected.mat-accent {
+// 	color: rgba(255, 255, 255, 1);
+// }
+
+// .mat-horizontal-content-container {
+// 	// overflow: visible !important;
+// }

@@ -1,0 +1,211 @@
+[
+	{
+		"NameEN": "automated-order-transcription-system",
+		"Name": "自動投單轉置系統",
+		"Tags": ["數據整合"],
+		"MetaTags": [
+			"數據整合",
+			"國安",
+			"資安",
+			"治安",
+			"大數據",
+			"自動調閱",
+			"自動投單",
+			"科技偵查",
+			"自動",
+			"投單",
+			"轉置",
+			"系統"
+		]
+	},
+	{
+		"NameEN": "big-data-analysis-module",
+		"Name": "大數據資料分析模組",
+		"Tags": ["大數據"],
+		"MetaTags": ["大數據", "國安", "資安", "治安", "數據整合", "科技偵查", "資料", "分析", "模組"]
+	},
+	{
+		"NameEN": "case-management-assistance-system",
+		"Name": "案件管理輔助系統",
+		"Tags": ["數據整合"],
+		"MetaTags": [
+			"數據整合",
+			"國安",
+			"治安",
+			"科技偵查",
+			"案件管理",
+			"案件",
+			"管理",
+			"偵查",
+			"輔助",
+			"系統",
+			"輔助系統"
+		]
+	},
+	{
+		"NameEN": "financial-data-analysis-system",
+		"Name": "金融數據分析系統",
+		"Tags": ["數據整合"],
+		"MetaTags": [
+			"數據整合",
+			"資安",
+			"治安",
+			"大數據",
+			"資訊安全",
+			"技術支援",
+			"金融數據",
+			"數據分析",
+			"金融",
+			"數據",
+			"分析",
+			"系統"
+		]
+	},
+	{
+		"NameEN": "full-text-search-module",
+		"Name": "全文檢索模組",
+		"Tags": ["數據整合"],
+		"MetaTags": ["數據整合", "國安", "資安", "治安", "大數據", "技術支援", "資訊安全", "全文檢索", "模組"]
+	},
+	{
+		"NameEN": "intelligence-visualization-analysis-module",
+		"Name": "情報視覺化分析模組",
+		"Tags": ["大數據"],
+		"MetaTags": ["大數據", "國安", "資安", "治安", "數據整合", "資訊安全", "視覺化分析", "視覺化", "分析", "模組"]
+	},
+	{
+		"NameEN": "ip-retrieval-system",
+		"Name": "IP調閱系統",
+		"Tags": ["數據整合"],
+		"MetaTags": ["數據整合", "國安", "治安", "資訊安全", "科技偵查", "IP調閱", "IP", "調閱", "系統"]
+	},
+	{
+		"NameEN": "lims-digital-forensics-management-system",
+		"Name": "LIMS數位鑑識管理系統",
+		"Tags": ["數據整合"],
+		"MetaTags": [
+			"數據整合",
+			"資安",
+			"治安",
+			"大數據",
+			"物聯網",
+			"資訊安全",
+			"LIMS",
+			"實驗室",
+			"數位鑑識",
+			"科技偵查",
+			"鑑識",
+			"管理",
+			"TAF",
+			"系統"
+		]
+	},
+	{
+		"NameEN": "public-opinion-analysis-system",
+		"Name": "輿情分析系統",
+		"Tags": ["人工智慧"],
+		"MetaTags": [
+			"人工智慧",
+			"國安",
+			"資安",
+			"治安",
+			"大數據",
+			"資訊安全",
+			"數據整合",
+			"科技偵查",
+			"輿情",
+			"分析",
+			"系統"
+		]
+	},
+	{
+		"NameEN": "social-engineering-exercise",
+		"Name": "社交工程演練",
+		"Tags": ["資訊安全"],
+		"MetaTags": [
+			"資訊安全",
+			"資安",
+			"大數據",
+			"資訊安全",
+			"數據整合",
+			"社交工程演練",
+			"社交工程",
+			"社交",
+			"演練",
+			"系統"
+		]
+	},
+	{
+		"NameEN": "technological-investigation-intelligence-analysis-system",
+		"Name": "科技偵查情資分析系統",
+		"Tags": ["大數據"],
+		"MetaTags": [
+			"大數據",
+			"國安",
+			"資安",
+			"治安",
+			"物聯網",
+			"數據整合",
+			"資訊安全",
+			"科技偵查",
+			"情資分析",
+			"情資",
+			"分析",
+			"系統"
+		]
+	},
+	{
+		"NameEN": "visualized-correlation-analysis-module",
+		"Name": "視覺化關聯分析模組",
+		"Tags": ["大數據"],
+		"MetaTags": [
+			"大數據",
+			"國安",
+			"資安",
+			"治安",
+			"數據整合",
+			"技術支援",
+			"視覺化",
+			"關聯",
+			"分析",
+			"模組",
+			"視覺化分析"
+		]
+	},
+	{
+		"NameEN": "ocr-recognition-system",
+		"Name": "OCR辨識系統",
+		"Tags": ["人工智慧"],
+		"MetaTags": [
+			"人工智慧",
+			"國安",
+			"資安",
+			"治安",
+			"數據整合",
+			"技術支援",
+			"OCR",
+			"辨識系統",
+			"辨識",
+			"系統",
+			"AI"
+		]
+	},
+	{
+		"NameEN": "ai-license-plate-recognition-system",
+		"Name": "AI車牌辨識系統",
+		"Tags": ["人工智慧"],
+		"MetaTags": [
+			"人工智慧",
+			"國安",
+			"資安",
+			"治安",
+			"數據整合",
+			"技術支援",
+			"車牌",
+			"車牌辨識",
+			"辨識",
+			"系統",
+			"AI"
+		]
+	}
+]

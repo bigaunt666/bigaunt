@@ -1,0 +1,52 @@
+#CopyRight,
+#PrivacyPolicy,
+#SecurityPolicy {
+	padding: 18em 1em;
+	max-width: 1200px;
+	margin: auto;
+	ul {
+		list-style: decimal;
+		li {
+			font-weight: 500;
+			font-size: 1.25em;
+			line-height: 140%;
+			letter-spacing: 0.08em;
+			color: #e1e6ef;
+			margin: 1em 0em;
+		}
+		.chileList {
+			list-style: disc;
+			li {
+				font-weight: 500;
+				font-size: 1em;
+				line-height: 140%;
+				letter-spacing: 0.08em;
+				color: #e1e6ef;
+			}
+		}
+	}
+	.titleBox {
+		padding-left: 1em;
+		h2 {
+			font-weight: 700;
+			font-size: 3em;
+			line-height: 120%;
+			letter-spacing: 0.15em;
+			color: #ffffff;
+		}
+		p {
+			font-weight: 500;
+			font-size: 1.25em;
+			line-height: 140%;
+			letter-spacing: 0.08em;
+			color: #e1e6ef;
+		}
+	}
+}
+.rightPage {
+	width: 100%;
+	background-image: url(../../../images/bloom_bannerTop.svg);
+	background-repeat: no-repeat;
+	background-size: 100vw auto;
+	background-position: top center;
+}

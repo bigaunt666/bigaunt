@@ -1,0 +1,491 @@
+// #recruitPage {
+// 	.bannerArea {
+// 		background-image: linear-gradient(
+// 			0deg,
+// 			rgba(14, 36, 79, 1) 0%,
+// 			rgba(27, 52, 102, 1) 100%
+// 		);
+
+// 		padding: 1em;
+// 		position: relative;
+// 		.bannerBox {
+// 			width: 100%;
+// 			max-width: 1250px;
+// 			margin: auto;
+// 			padding-top: 193px;
+// 			padding-bottom: 52px;
+// 			position: relative;
+// 			display: flex;
+// 			justify-content: flex-end;
+// 			z-index: 3;
+// 			.wordBox {
+// 				position: absolute;
+// 				left: 0em;
+// 				top: 33%;
+// 				width: 600px;
+// 				h2 {
+// 					font-size: 4em;
+// 					line-height: 1.25em;
+// 					color: #fff;
+// 					font-weight: 700;
+// 				}
+// 				p {
+// 					margin-top: 0.83em;
+// 					font-size: 1.5em;
+// 					color: #fff;
+// 					line-height: 1.5416em;
+// 				}
+// 				a.btn {
+// 					margin-top: 2em;
+// 					p {
+// 						color: #7694d0;
+// 						font-weight: 500;
+// 						font-size: 1rem;
+// 						line-height: 1.1875em;
+// 						margin: 0em;
+// 					}
+// 				}
+// 			}
+// 			.imgBox {
+// 				height: auto;
+// 				width: 60%;
+// 			}
+// 		}
+// 		.bannerimgArea {
+// 			position: absolute;
+// 			top: 0em;
+// 			left: 0em;
+// 			width: 100%;
+// 			height: 100%;
+// 			z-index: 2;
+// 			.bloom {
+// 				position: absolute;
+// 			}
+// 			.bloom_bannertop {
+// 				top: 0%;
+// 				left: 20%;
+// 			}
+// 		}
+// 	}
+// 	.copInfoArea {
+// 		background-color: rgba(27, 52, 102, 1);
+// 		padding: 3.75em;
+// 		.swiper-container {
+// 			padding-left: 3em;
+// 			padding-right: 3em;
+// 			padding-bottom: 3em;
+// 		}
+// 		.swiper-container-horizontal {
+// 			.swiper-scrollbar {
+// 				width: 100px;
+// 				left: 45.8333%;
+// 				background: rgba(40, 67, 120, 1);
+// 			}
+// 		}
+// 		.swiper-scrollbar-drag {
+// 			background: rgba(108, 148, 225, 1);
+// 		}
+// 		.slide_box {
+// 			width: 100%;
+// 			max-width: 1200px;
+// 			margin: auto;
+// 		}
+
+// 		.swiper-button-prev,
+// 		.swiper-button-next {
+// 			width: 40px;
+// 			height: 40px;
+// 			@extend %backgroundImgSetting;
+// 			background-image: url(../../../images/recruitPages/icon/icon_slideArrow.svg);
+// 			&::after {
+// 				content: none;
+// 			}
+// 		}
+// 		.swiper-button-prev {
+// 			left: 0px;
+// 			transform: rotate(0.5turn);
+// 		}
+// 		.swiper-button-next {
+// 			right: 0px;
+// 		}
+// 		.item {
+// 			width: 100%;
+// 			max-width: 280px;
+// 			margin: auto;
+// 			h3 {
+// 				margin: unset;
+// 				font-size: 1.5em;
+// 				font-weight: 700;
+// 				line-height: 1.5416em;
+// 				letter-spacing: 0.08em;
+// 				text-align: center;
+// 			}
+// 			p {
+// 				margin: unset;
+// 				font-weight: 500;
+// 				font-size: 1.25em;
+// 				line-height: 1.6em;
+// 				letter-spacing: 0.04em;
+// 				text-align: center;
+// 			}
+// 			.imgBox {
+// 				width: 150px;
+// 				height: 150px;
+// 				@extend %backgroundImgSetting;
+// 			}
+// 		}
+// 		.item_1 {
+// 			.imgBox {
+// 				background-image: url(../../../images/recruitPages/icon/icon_ability.svg);
+// 			}
+// 		}
+// 		.item_2 {
+// 			.imgBox {
+// 				background-image: url(../../../images/recruitPages/icon/icon_knowledge.svg);
+// 			}
+// 		}
+// 		.item_3 {
+// 			.imgBox {
+// 				background-image: url(../../../images/recruitPages/icon/icon_foster.svg);
+// 			}
+// 		}
+// 		.item_4 {
+// 			.imgBox {
+// 				background-image: url(../../../images/recruitPages/icon/icon_profession.svg);
+// 			}
+// 		}
+// 		.item_5 {
+// 			.imgBox {
+// 				background-image: url(../../../images/recruitPages/icon/icon_book.svg);
+// 			}
+// 		}
+// 		.item_6 {
+// 			.imgBox {
+// 				background-image: url(../../../images/recruitPages/icon/icon_future.svg);
+// 			}
+// 		}
+// 	}
+// 	.profitArea {
+// 		padding-top: 100px;
+// 		padding-bottom: 100px;
+// 		.listsBox {
+// 			width: 100%;
+// 			max-width: 1200px;
+// 			margin: auto;
+// 			display: flex;
+// 			justify-content: space-between;
+// 		}
+// 		.list {
+// 			width: 30%;
+// 			padding: 0% 1%;
+// 			.titleBox {
+// 				padding: 12px 0px 12px 64px;
+// 				border-radius: 12px;
+// 				background-color: rgba($color: #fff, $alpha: 0.3);
+// 				h3 {
+// 					position: relative;
+// 					font-size: 1.5em;
+// 					font-weight: 700;
+// 					line-height: 1.5416em;
+// 					letter-spacing: 0.08em;
+// 					&::before {
+// 						position: absolute;
+// 						top: 0.25em;
+// 						left: -1.25em;
+// 						content: '';
+// 						height: 1em;
+// 						width: 1em;
+// 						@extend %backgroundImgSetting;
+// 						// background: #c4c4c4;
+// 					}
+// 				}
+// 			}
+// 			.content {
+// 				padding: 0% 5%;
+// 			}
+// 		}
+
+// 		.item {
+// 			padding: 24px 8px;
+// 			border-bottom: 1px solid rgba(196, 196, 196, 0.2);
+// 			&:last-child {
+// 				border-bottom: unset;
+// 			}
+
+// 			.item_title {
+// 				cursor: pointer;
+// 			}
+// 			h4 {
+// 				font-size: 1.25em;
+// 				font-weight: 700;
+// 				line-height: 1.2em;
+// 				margin-bottom: unset;
+// 				position: relative;
+// 				max-width: 13em;
+// 				&::before {
+// 					content: '';
+// 					position: absolute;
+// 					height: 1em;
+// 					width: 0.2em;
+// 					border-radius: 0.1em;
+// 					background-color: rgba($color: #fff, $alpha: 0.3);
+// 					left: -6px;
+// 					top: 0.1em;
+// 				}
+// 				&::after {
+// 					content: '';
+// 					position: absolute;
+// 					height: 25px;
+// 					width: 25px;
+// 					border-radius: 50%;
+// 					@extend %backgroundImgSetting;
+// 					background-image: url(../../../images/recruitPages/icon/icon_slideArrow.svg);
+// 					top: 0.1em;
+// 					right: -2em;
+// 					transform: rotate(90deg);
+// 					transition: 600ms ease-in-out;
+// 				}
+// 			}
+// 			.contentBox {
+// 				margin-top: 0.75em;
+// 				height: 0px;
+// 				overflow: hidden;
+// 				transition: 600ms ease-in-out;
+// 				p {
+// 					font-size: 1.125em;
+// 					font-weight: 400;
+// 					line-height: 1.1666em;
+// 					letter-spacing: 0.04em;
+// 					color: rgba(225, 230, 239, 1);
+// 					width: 95%;
+// 				}
+// 			}
+// 		}
+// 		.active {
+// 			h4 {
+// 				&::after {
+// 					transform: rotate(-90deg);
+// 					transition: 600ms ease-in-out;
+// 				}
+// 			}
+// 		}
+// 		.list_awards {
+// 			$topicColor: rgba(251, 228, 147, 1);
+// 			$BGColor: rgba(251, 228, 147, 0.1);
+// 			.titleBox {
+// 				background-color: $BGColor;
+// 			}
+// 			h3 {
+// 				color: $topicColor;
+// 				&::before {
+// 					background-image: url(../../../images/recruitPages/icon/icon_awards.svg);
+// 				}
+// 			}
+// 			h4 {
+// 				&::before {
+// 					background-color: $topicColor;
+// 				}
+// 			}
+// 		}
+// 		.list_right {
+// 			$topicColor: rgba(156, 242, 154, 1);
+// 			$BGColor: rgba(156, 242, 154, 0.1);
+// 			.titleBox {
+// 				background-color: $BGColor;
+// 			}
+// 			h3 {
+// 				color: $topicColor;
+// 				&::before {
+// 					background-image: url(../../../images/recruitPages/icon/icon_right.svg);
+// 				}
+// 			}
+// 			h4 {
+// 				&::before {
+// 					background-color: $topicColor;
+// 				}
+// 			}
+// 		}
+// 		.list_benefits {
+// 			$topicColor: rgba(144, 235, 255, 1);
+// 			$BGColor: rgba(144, 235, 255, 0.1);
+// 			.titleBox {
+// 				background-color: $BGColor;
+// 				h3 {
+// 					color: $topicColor;
+// 					&::before {
+// 						background-image: url(../../../images/recruitPages/icon/icon_benefits_circle.svg),
+// 							url(../../../images/recruitPages/icon/icon_benefits_pin.svg);
+// 						background-size: contain, 60% 60%;
+// 					}
+// 				}
+// 			}
+// 			h4 {
+// 				&::before {
+// 					background-color: $topicColor;
+// 				}
+// 			}
+// 		}
+// 	}
+// 	.joinUsArea {
+// 		padding: 70px 0px;
+// 		@extend %backgroundImgSetting;
+// 		background-size: 100%;
+// 		background-image: linear-gradient(
+// 				180deg,
+// 				rgba(16, 38, 81, 0.8) 35.55%,
+// 				rgba(16, 38, 81, 0.88) 56.8%
+// 			),
+// 			url(../../../images/recruitPages/joinUsArea_BG_original.png);
+// 		h3 {
+// 			font-weight: 700;
+// 			font-size: 2em;
+// 			line-height: 2.5em;
+// 			text-align: center;
+// 			letter-spacing: 0.15em;
+// 			color: #ffffff;
+// 			margin-bottom: 0.375em;
+// 		}
+// 	}
+
+// 	@media screen and (max-width: 1080px) {
+// 		.bannerArea {
+// 			.bannerBox {
+// 				.wordBox {
+// 					width: 50%;
+// 					h3 {
+// 						font-size: 3em;
+// 					}
+// 					p {
+// 						font-size: 1.125em;
+// 					}
+// 				}
+// 			}
+// 		}
+// 		.profitArea {
+// 			.list {
+// 				width: 33%;
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 1023px) {
+// 	}
+// 	@media screen and (max-width: 768px) {
+// 		.bannerArea {
+// 			.bannerBox {
+// 				position: relative;
+// 				display: flex;
+// 				flex-direction: column;
+// 				.wordBox {
+// 					position: relative;
+// 					width: 80%;
+// 					margin: auto;
+// 					margin-bottom: 10%;
+// 					h2 {
+// 						font-size: 3em;
+// 						line-height: 1.25em;
+// 						color: #fff;
+// 						font-weight: 700;
+// 						text-align: center;
+// 					}
+// 					p {
+// 						margin-top: 0.83em;
+// 						font-size: 1.25em;
+// 						color: #fff;
+// 						line-height: 1.5416em;
+// 						text-align: center;
+// 					}
+// 					display: flex;
+// 					flex-direction: column;
+// 					align-items: center;
+// 					justify-content: center;
+// 				}
+// 				.imgBox {
+// 					height: auto;
+// 					width: 100%;
+// 				}
+// 			}
+// 		}
+// 		.copInfoArea {
+// 			.item {
+// 				h3 {
+// 					font-size: 1.25em;
+// 				}
+// 				p {
+// 					font-size: 1.125em;
+// 				}
+// 			}
+// 			.swiper-container-horizontal {
+// 				.swiper-scrollbar {
+// 					left: 33.4895vw;
+// 				}
+// 			}
+// 		}
+// 		.profitArea {
+// 			padding-top: 100px;
+// 			padding-bottom: 100px;
+// 			.listsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+// 			.list {
+// 				width: 90%;
+// 				margin-top: 2em;
+// 			}
+// 			.item {
+// 				h4 {
+// 					max-width: unset;
+// 					&::after {
+// 						right: 0em;
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 440px) {
+// 		.bannerArea {
+// 			.bannerBox {
+// 				position: relative;
+// 				display: flex;
+// 				flex-direction: column;
+// 				.wordBox {
+// 					position: relative;
+// 					width: fit-content;
+// 					h1 {
+// 						font-size: 2.125em;
+// 						line-height: 1.25em;
+// 						color: #fff;
+// 						font-weight: 700;
+// 						text-align: center;
+// 					}
+// 					p {
+// 						margin-top: 0.83em;
+// 						font-size: 1em;
+// 						color: #fff;
+// 						line-height: 1.5416em;
+// 						text-align: center;
+// 					}
+// 				}
+// 				.imgBox {
+// 					height: auto;
+// 					width: 100%;
+// 				}
+// 			}
+// 		}
+// 		.copInfoArea {
+// 			.item {
+// 				h3 {
+// 					font-size: 1.25em;
+// 				}
+// 				p {
+// 					font-size: 1.125em;
+// 				}
+// 			}
+// 			.swiper-container-horizontal {
+// 				.swiper-scrollbar {
+// 					width: 22.7272vw;
+// 					left: 27.4895vw;
+// 				}
+// 			}
+// 		}
+// 	}
+// }

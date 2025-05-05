@@ -1,0 +1,159 @@
+[
+	{
+		"Date": "2025-01-23",
+		"Type": "新聞 ｜ AI，智慧治理，智慧系統，ESG，數位轉型",
+		"TypeEN": "news",
+		"Content": "泛亞工程導入AI智慧系統 聯合坤侑科技邁向ESG",
+		"Image": "/assets/images/newsPage/news/ai-system-in-collaboration-to-advance-esg-goals.webp",
+		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"AI",
+			"智慧治理",
+			"智慧系統",
+			"ESG",
+			"數位轉型"
+		]
+	},
+	{
+		"Date": "2024-12-25",
+		"Type": "新聞 ｜ AI，智慧防詐，網址驗證，網路信任",
+		"TypeEN": "news",
+		"Content": "坤侑科技攜手REALTEK INFORMATICS TELECOM 建構AI防詐信任服務",
+		"Image": "/assets/images/newsPage/news/ai-anti-fraud-trust-service-overseas-collaboration.webp",
+		"FileTitle": "ai-anti-fraud-trust-service-overseas-collaboration",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"AI",
+			"智慧防詐",
+			"網址驗證",
+			"網路信任"
+		]
+	},
+	{
+		"Date": "2024-05-31",
+		"Type": "新聞 ｜ 網址詐騙，AI防詐，數位信任，數位韌性，網址驗證，釣魚攻擊",
+		"TypeEN": "news",
+		"Content": "貼上網址就能判斷詐騙！坤侑科技全新AI防詐服務 守護企業與民眾荷包",
+		"Image": "/assets/images/newsPage/news/paste-the-url-to-detect-scams.webp",
+		"FileTitle": "paste-the-url-to-detect-scams",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"網址詐騙",
+			"AI防詐",
+			"數位信任",
+			"數位韌性",
+			"網址驗證",
+			"釣魚攻擊"
+		]
+	},
+	{
+		"Date": "2024-02-07",
+		"Type": "新聞 ｜ 虛擬貨幣，洗錢詐欺，數據分析，科技偵查，金融科技犯罪，金流調閱",
+		"TypeEN": "news",
+		"Content": "執法新利器「虛擬貨幣數據分析平台」 防範虛擬貨幣洗錢及詐欺犯罪",
+		"Image": "/assets/images/newsPage/news/new-law-enforcement-tool.jpg",
+		"FileTitle": "new-law-enforcement-tool",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"虛擬貨幣",
+			"洗錢詐欺",
+			"數據分析",
+			"科技偵查",
+			"金融科技犯罪",
+			"金流調閱"
+		]
+	},
+	{
+		"Date": "2024-01-17",
+		"Type": "新聞 ｜ 實驗室，LIMS，數位鑑識，海巡署，偵防分署，ISO17025",
+		"TypeEN": "news",
+		"Content": "坤侑科技實驗室管理系統(LIMS)，為鑑驗偵查迎來科技變革！",
+		"Image": "/assets/images/newsPage/news/kunyou-technology-laboratory-information-management-system.jpg",
+		"FileTitle": "kunyou-technology-laboratory-information-management-system",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"實驗室",
+			"LIMS",
+			"數位鑑識",
+			"海巡署",
+			"偵防分署",
+			"ISO17025"
+		]
+	},
+	{
+		"Date": "2024-01-14",
+		"Type": "新聞 ｜ 大數據，海巡署，情資蒐集，科技偵查",
+		"TypeEN": "news",
+		"Content": "大數據抓偷渡　海巡署屏東外海逮30越南籍人士企圖闖關",
+		"Image": "/assets/images/newsPage/news/big-data-captures-illegal-immigrants.webp",
+		"FileTitle": "big-data-captures-illegal-immigrants",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"大數據",
+			"海巡署",
+			"情資蒐集",
+			"科技偵查"
+		]
+	},
+	{
+		"Date": "2023-05-15",
+		"Type": "新聞 ｜ ESG，科技偵查，視覺化分析，客戶滿意度，永續經營，智慧創新",
+		"TypeEN": "news",
+		"Content": "坤侑攜手政府前進ESG 新科技應用創未來永續",
+		"Image": "/assets/images/newsPage/news/kunyou-teams-up-with-the-government-to-advance-esg.webp",
+		"FileTitle": "kunyou-teams-up-with-the-government-to-advance-esg",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"ESG",
+			"科技偵查",
+			"視覺化分析",
+			"客戶滿意度",
+			"永續經營",
+			"智慧創新"
+		]
+	},
+	{
+		"Date": "2022-01-12",
+		"Type": "新聞 ｜ 科技監控，司法院，法務部，電子腳環，電子手環，電子圍籬",
+		"TypeEN": "news",
+		"Content": "科技設備監控中心揭牌 打造全方位科技防逃網",
+		"Image": "/assets/images/newsPage/news/inauguration-of-the-technology-equipment-monitoring-center.webp",
+		"FileTitle": "inauguration-of-the-technology-equipment-monitoring-center",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"科技監控",
+			"司法院",
+			"法務部",
+			"電子腳環",
+			"電子手環",
+			"電子圍籬"
+		]
+	},
+	{
+		"Date": "2022-01-02",
+		"Type": "新聞 ｜ 海巡署，偵防分署，犯罪分析，車牌辨識，船舶監控，黑名單",
+		"TypeEN": "news",
+		"Content": "防堵走私犯罪 海巡署擬建車船軌跡分析系統",
+		"Image": "/assets/images/newsPage/news/preventing-smuggling-crimes.webp",
+		"FileTitle": "preventing-smuggling-crimes",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"海巡署",
+			"偵防分署",
+			"犯罪分析",
+			"車牌辨識",
+			"船舶監控",
+			"黑名單"
+		]
+	}
+]

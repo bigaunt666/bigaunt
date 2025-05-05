@@ -1,0 +1,469 @@
+// #solutionPage_IA {
+// 	@import './base';
+// 	em.hightlight {
+// 		color: #fbe493;
+// 		font-style: initial;
+// 	}
+// 	.content {
+// 		padding-bottom: 0em;
+// 		.titleBox {
+// 			padding-left: 1em;
+// 			h3 {
+// 				font-weight: 700;
+// 				font-size: 3em;
+// 				line-height: 100%;
+// 				text-align: justify;
+// 				letter-spacing: 0.12em;
+// 				color: #ffffff;
+// 				padding-left: 0.6666em;
+// 				padding-bottom: 0.6666em;
+// 				border-bottom: 1px solid rgba(38, 68, 125, 1);
+// 				margin-top: 2em;
+// 				margin-bottom: 1em;
+// 			}
+// 			h4 {
+// 				font-weight: 700;
+// 				font-size: 2.25em;
+// 				line-height: 130%;
+// 				text-align: justify;
+// 				letter-spacing: 0.12em;
+// 				color: #ffffff;
+// 			}
+// 		}
+// 	}
+
+// 	.bannerArea {
+// 		.bannerBox {
+// 			.wordBox {
+// 				width: 100%;
+// 				h2 {
+// 					font-weight: 700;
+// 					font-size: 4em;
+// 					line-height: 150%;
+// 					text-align: center;
+// 					color: rgba(74, 255, 222, 1);
+// 				}
+// 				p {
+// 					text-align: center;
+// 				}
+// 			}
+// 		}
+// 	}
+// 	.howArea {
+// 		p {
+// 			font-weight: 500;
+// 			font-size: 1.75em;
+// 			line-height: 1.5em;
+// 			text-align: center;
+// 			letter-spacing: 112%;
+// 			color: #e1e6ef;
+// 			max-width: 1200px;
+// 			margin: auto;
+// 		}
+// 		.itemsBox {
+// 			justify-content: space-around;
+// 			.item_row {
+// 				width: 44%;
+// 			}
+// 			.item_col {
+// 				width: 48%;
+// 			}
+// 			.item_icon {
+// 				top: 1.375em;
+// 			}
+// 			.item_1 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(253, 148, 255, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/4.svg);
+// 				}
+// 			}
+// 			.item_2 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(255, 248, 231, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/5.svg);
+// 				}
+// 			}
+// 		}
+// 		.ETL {
+// 			margin-top: 5.625em;
+// 			h3 {
+// 				font-size: 2em;
+// 				letter-spacing: 0.08em;
+// 				line-height: 1em;
+// 				color: rgba(188, 200, 224, 1);
+// 			}
+// 			.itemsBox {
+// 				.item_1 {
+// 					background-color: rgba(91, 184, 197, 0.05);
+// 					.imgBox {
+// 						background-image: url(../../../../assets/images/solutionPages/solution/NLP/NLP_icon_1.svg);
+// 					}
+// 					h4 {
+// 						color: rgba(144, 235, 255, 1);
+// 					}
+// 					p {
+// 						font-size: 1.2em;
+// 						line-height: 1.5em;
+// 						letter-spacing: 0.04em;
+// 						color: rgba(219, 248, 255, 1);
+// 					}
+// 				}
+// 				.item_2 {
+// 					background-color: rgba(58, 178, 85, 0.05);
+// 					.imgBox {
+// 						background-image: url(../../../../assets/images/solutionPages/solution/NLP/NLP_icon_2.svg);
+// 					}
+// 					h4 {
+// 						color: rgba(156, 242, 154, 1);
+// 					}
+// 					p {
+// 						font-size: 1.2em;
+// 						line-height: 1.5em;
+// 						letter-spacing: 0.04em;
+// 						color: rgba(238, 255, 242, 1);
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// 	.stepArea.contentBox {
+// 		display: flex;
+// 		flex-wrap: wrap;
+// 		justify-content: space-between;
+// 		margin-top: 0em;
+// 		.abstractBox {
+// 			display: flex;
+// 			flex-direction: column-reverse;
+// 			justify-content: flex-end;
+// 			width: 30%;
+// 			margin: initial;
+// 			margin-bottom: 3em;
+// 			padding-right: 1em;
+// 			padding-left: 1em;
+// 			.wordsBox {
+// 				width: 100%;
+// 			}
+// 			.imgBox {
+// 				width: 100%;
+// 				min-height: 280px;
+// 				@extend %backgroundImgSetting;
+// 				background-size: auto 100%;
+// 				border-radius: 0.5em;
+// 			}
+// 			h3 {
+// 				font-weight: 600;
+// 				font-size: 2em;
+// 				line-height: 131%;
+// 				text-align: start;
+// 				letter-spacing: 0.12em;
+// 				color: #e1e6ef;
+// 				margin-top: 0.75em;
+// 				margin-bottom: 0.375em;
+// 				@media screen and (max-width: 1080px) {
+// 					font-size: 1.5em;
+// 				}
+// 			}
+// 			p {
+// 				font-weight: 500;
+// 				font-size: 1.5em;
+// 				line-height: 175%;
+// 				letter-spacing: 0.04em;
+// 				color: #e1e6ef;
+// 				@media screen and (max-width: 1080px) {
+// 					font-size: 1.25em;
+// 				}
+// 			}
+// 		}
+// 		.abstractBox.row-2 {
+// 			width: 46%;
+// 		}
+// 		.abstractBox.Step1 {
+// 			.imgBox {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_step_1.png);
+// 			}
+// 		}
+// 		.abstractBox.Step2 {
+// 			.imgBox {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_step_2.png);
+// 			}
+// 		}
+// 		.abstractBox.Step3 {
+// 			.imgBox {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_step_3.png);
+// 			}
+// 		}
+// 		.abstractBox.Step4 {
+// 			.imgBox {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_step_4.png);
+// 			}
+// 		}
+// 		.abstractBox.Step5 {
+// 			.imgBox {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_step_5.png);
+// 			}
+// 		}
+// 	}
+// 	.applyArea {
+// 		.item {
+// 			width: 45%;
+// 		}
+// 		.item-row-3 {
+// 			width: 32%;
+// 		}
+// 		.item-row-2 {
+// 			width: 48%;
+// 		}
+// 		.applyBox {
+// 			.item_1 {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_ab_2.png);
+// 			}
+// 			.item_2 {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_ab_3.png);
+// 			}
+// 			.item_3 {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_ab_4.png);
+// 			}
+// 			.item_4 {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_ab_5.png);
+// 			}
+// 		}
+// 		.faceBox {
+// 			.item_1 {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_ab_6.png);
+// 			}
+// 			.item_2 {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_ab_7.png);
+// 			}
+// 			.item_3 {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_ab_8.png);
+// 			}
+// 		}
+// 		.medicalBox {
+// 			.item_1 {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_ab_9.png);
+// 			}
+// 			.item_2 {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_ab_10.png);
+// 			}
+// 			.item_3 {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_ab_11.png);
+// 			}
+// 		}
+// 	}
+// 	.exampleArea {
+// 		.mySwiper.row-2 {
+// 			.swiper-slide {
+// 				&:nth-child(1) {
+// 					justify-content: flex-end;
+// 				}
+// 				&:nth-child(2) {
+// 					justify-content: flex-start;
+// 				}
+// 			}
+// 		}
+// 		.item {
+// 			.CoInfoBox {
+// 				background-repeat: no-repeat;
+// 				background-size: auto 100%;
+// 				background-position: center center;
+// 			}
+// 		}
+// 		.item_1 {
+// 			.CoInfoBox {
+// 				background-image: url(../../../images/solutionPages/solution/IA/IA_example_1.png);
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 1080px) {
+// 		.howArea {
+// 			p {
+// 				font-size: 1.25em;
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 1023px) {
+// 		.AIServicesItems {
+// 			display: flex;
+// 			justify-content: center;
+// 			flex-wrap: wrap;
+// 			.item {
+// 				width: 95%;
+// 				max-width: unset;
+// 				justify-content: space-between;
+// 				.btn {
+// 					margin-top: 5em;
+// 				}
+// 				.wordsBox {
+// 					width: 50%;
+// 				}
+// 				.imgBox {
+// 					width: 50%;
+// 					max-width: unset;
+// 				}
+// 			}
+// 		}
+// 		.stepArea.contentBox {
+// 			.abstractBox {
+// 				width: 46%;
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 768px) {
+// 		.content {
+// 			.titleBox {
+// 				text-align: center;
+// 				margin-bottom: 3.875em;
+// 				h2 {
+// 					font-size: 2em;
+// 					font-weight: 700;
+// 					margin-bottom: 0.5em;
+// 					letter-spacing: 0.12em;
+// 				}
+// 				p {
+// 					font-size: 1.25em;
+// 					letter-spacing: 0.1em;
+// 					line-height: 1.5em;
+// 					color: rgba(188, 200, 224, 1);
+// 				}
+// 			}
+// 			.itemsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+// 			.howArea,
+// 			.benefitArea {
+// 				.itemsBox {
+// 					.item_row {
+// 						width: 90%;
+// 					}
+// 				}
+// 			}
+// 			.howArea,
+// 			.benefitArea {
+// 				.itemsBox {
+// 					.item_col {
+// 						width: 100%;
+// 						padding: 1.5em;
+// 						display: flex;
+// 						align-items: center;
+// 						margin-bottom: 1em;
+// 						.imgBox {
+// 							margin: unset;
+// 							margin-right: 1.5em;
+// 						}
+// 						.words {
+// 							width: 70%;
+// 							text-align: left;
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 		.stepArea.contentBox {
+// 			.abstractBox {
+// 				width: 46%;
+// 			}
+// 			.abstractBox.row-2 {
+// 				width: 46%;
+// 			}
+// 		}
+// 		.applyArea {
+// 			.itemsBox {
+// 				flex-direction: row;
+// 				.item-row-3 {
+// 					width: 48%;
+// 				}
+// 				.item-row-2 {
+// 					width: 48%;
+// 				}
+// 			}
+// 		}
+// 		.exampleArea {
+// 			.mySwiper.row-2 {
+// 				.swiper-slide {
+// 					&:nth-child(1),
+// 					&:nth-child(2) {
+// 						justify-content: center;
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 440px) {
+// 		.content {
+// 			.titleBox {
+// 				text-align: center;
+// 				margin-bottom: 3.875em;
+// 				h2 {
+// 					font-size: 2em;
+// 					font-weight: 700;
+// 					margin-bottom: 0.5em;
+// 					letter-spacing: 0.12em;
+// 				}
+// 				p {
+// 					font-size: 1.25em;
+// 					letter-spacing: 0.1em;
+// 					line-height: 1.5em;
+// 					color: rgba(188, 200, 224, 1);
+// 				}
+// 			}
+// 			.itemsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+// 			.item_row {
+// 				.words {
+// 					p {
+// 						font-size: 1.125em;
+// 					}
+// 				}
+// 			}
+// 		}
+// 		.applyArea {
+// 			.itemsBox {
+// 				flex-direction: row;
+// 			}
+// 			.item {
+// 				width: 95% !important;
+// 				background-size: 100% 100%;
+// 			}
+// 		}
+// 		.howArea {
+// 			padding-right: 1em;
+// 			padding-left: 1em;
+// 		}
+// 		.stepArea.contentBox {
+// 			.abstractBox {
+// 				width: 95%;
+// 				.imgBox {
+// 					background-size: auto 110%;
+// 				}
+// 			}
+// 			.abstractBox.row-2 {
+// 				width: 95%;
+// 			}
+// 		}
+// 		.AIServicesItems {
+// 			.item {
+// 				width: 95%;
+// 				max-width: unset;
+// 				flex-direction: column;
+// 				.btn {
+// 					margin-top: 3em;
+// 				}
+// 				.wordsBox {
+// 					width: 100%;
+// 					margin-top: 1em;
+// 				}
+// 				.imgBox {
+// 					width: 100%;
+// 					max-width: unset;
+// 				}
+// 			}
+// 		}
+// 	}
+// }

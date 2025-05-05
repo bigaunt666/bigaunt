@@ -1,0 +1,373 @@
+// #solutionPage_BC {
+// 	@import './base';
+// 	em.hightlight {
+// 		color: #fbe493;
+// 		font-style: initial;
+// 	}
+// 	.characteristicArea {
+// 		.itemsBox {
+// 			justify-content: center;
+// 			.item_col {
+// 				width: 23%;
+// 			}
+// 			.row_1 {
+// 				width: 30%;
+// 			}
+// 			.row_2 {
+// 				width: 44%;
+// 			}
+// 			.item {
+// 				margin: 1.125em;
+// 			}
+// 			.item_1 {
+// 				background-color: rgba(91, 184, 197, 0.05);
+// 				.imgBox {
+// 					background-image: url(../../../../assets/images/solutionPages/solution/blockchain/icon_decentralization.svg);
+// 				}
+// 				h4 {
+// 					color: rgba(144, 235, 255, 1);
+// 				}
+// 				p {
+// 					font-size: 1.2em;
+// 					line-height: 1.5em;
+// 					letter-spacing: 0.04em;
+// 					color: rgba(219, 248, 255, 1);
+// 				}
+// 			}
+// 			.item_2 {
+// 				background-color: rgba(58, 178, 85, 0.05);
+// 				.imgBox {
+// 					background-image: url(../../../../assets/images/solutionPages/solution/blockchain/icon_immutability.svg);
+// 				}
+// 				h4 {
+// 					color: rgba(156, 242, 154, 1);
+// 				}
+// 				p {
+// 					font-size: 1.2em;
+// 					line-height: 1.5em;
+// 					letter-spacing: 0.04em;
+// 					color: rgba(238, 255, 242, 1);
+// 				}
+// 			}
+// 			.item_3 {
+// 				background-color: rgba(178, 166, 58, 0.05);
+// 				.imgBox {
+// 					background-image: url(../../../../assets/images/solutionPages/solution/blockchain/icon_traceability.svg);
+// 				}
+// 				h4 {
+// 					color: rgba(251, 228, 147, 1);
+// 				}
+// 				p {
+// 					font-size: 1.2em;
+// 					line-height: 1.5em;
+// 					letter-spacing: 0.04em;
+// 					color: rgba(255, 253, 239, 1);
+// 				}
+// 			}
+// 			.item_4 {
+// 				background-color: rgba(255, 138, 131, 0.05);
+// 				.imgBox {
+// 					background-image: url(../../../../assets/images/solutionPages/solution/blockchain/icon_openness.svg);
+// 				}
+// 				h4 {
+// 					color: rgba(255, 138, 131, 1);
+// 				}
+// 				p {
+// 					font-size: 1.2em;
+// 					line-height: 1.5em;
+// 					letter-spacing: 0.04em;
+// 					color: rgba(255, 243, 243, 1);
+// 				}
+// 			}
+// 			.item_5 {
+// 				background-color: rgba(163, 148, 255, 0.05);
+// 				.imgBox {
+// 					background-image: url(../../../../assets/images/solutionPages/solution/blockchain/icon_shield.svg);
+// 				}
+// 				h4 {
+// 					color: rgba(163, 148, 255, 1);
+// 				}
+// 				p {
+// 					font-size: 1.2em;
+// 					line-height: 1.5em;
+// 					letter-spacing: 0.04em;
+// 					color: rgba(242, 232, 255, 1);
+// 				}
+// 			}
+// 		}
+// 	}
+
+// 	.typeArea {
+// 		.itemsBox {
+// 			align-items: flex-start;
+// 			justify-content: space-between;
+// 		}
+// 		.item_table {
+// 			width: 32%;
+// 			.bar {
+// 				min-height: 250px;
+// 				padding: 1.5em;
+// 				display: flex;
+// 				align-items: flex-start;
+// 				justify-content: center;
+
+// 				background-color: rgba(58, 99, 178, 0.1);
+// 				.words {
+// 					display: flex;
+// 					flex-direction: column;
+// 					align-items: center;
+// 					width: 100%;
+// 					height: 100%;
+// 					margin: unset;
+// 					text-align: center;
+// 				}
+// 			}
+// 		}
+// 	}
+// 	.howArea {
+// 		.itemsBox {
+// 			justify-content: space-around;
+// 			.item_row {
+// 				width: 44%;
+// 			}
+// 			.item_col {
+// 				width: 30%;
+// 			}
+// 			.item_icon {
+// 				top: 1.375em;
+// 			}
+// 			.item_1 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(253, 148, 255, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/4.svg);
+// 				}
+// 			}
+// 			.item_2 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(255, 248, 231, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/5.svg);
+// 				}
+// 			}
+// 		}
+// 		.IPFS {
+// 			margin-top: 5.625em;
+// 			padding-left: 1em;
+// 			padding-right: 1em;
+// 			h3 {
+// 				text-align: start;
+// 				font-size: 2em;
+// 				font-weight: 600;
+// 				line-height: 100%;
+// 				letter-spacing: 0.12em;
+// 				color: #ffffff;
+// 				@media screen and (max-width: 1023px) {
+// 					font-size: 1.5em;
+// 				}
+// 			}
+// 			p {
+// 				font-weight: 500;
+// 				font-size: 1.5em;
+// 				line-height: 150%;
+// 				letter-spacing: 0.12em;
+// 				color: #e1e6ef;
+// 				text-align: start;
+// 			}
+// 			.titleBox {
+// 				margin-bottom: unset;
+// 			}
+// 			.itemsBox {
+// 				.item_1 {
+// 					.imgBox {
+// 						background-image: url(../../../../assets/images/solutionPages/solution/blockchain/BC_icon_download.svg);
+// 					}
+// 					h4 {
+// 						color: rgba(144, 235, 255, 1);
+// 					}
+// 					p {
+// 						font-size: 1.2em;
+// 						line-height: 1.5em;
+// 						letter-spacing: 0.04em;
+// 						color: rgba(219, 248, 255, 1);
+// 					}
+// 				}
+// 				.item_2 {
+// 					.imgBox {
+// 						background-image: url(../../../../assets/images/solutionPages/solution/blockchain/BC_icon_save.svg);
+// 					}
+// 					h4 {
+// 						color: rgba(156, 242, 154, 1);
+// 					}
+// 					p {
+// 						font-size: 1.2em;
+// 						line-height: 1.5em;
+// 						letter-spacing: 0.04em;
+// 						color: rgba(238, 255, 242, 1);
+// 					}
+// 				}
+// 				.item_3 {
+// 					.imgBox {
+// 						background-image: url(../../../../assets/images/solutionPages/solution/blockchain/BC_icon_safe.svg);
+// 					}
+// 					h4 {
+// 						color: rgba(251, 228, 147, 1);
+// 					}
+// 					p {
+// 						font-size: 1.2em;
+// 						line-height: 1.5em;
+// 						letter-spacing: 0.04em;
+// 						color: rgba(255, 253, 239, 1);
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// 	.applyArea {
+// 		.item {
+// 			width: 45%;
+// 		}
+// 		.item-row-3 {
+// 			width: 32%;
+// 		}
+// 		.item-row-2 {
+// 			width: 48%;
+// 		}
+// 		.item_1 {
+// 			background-image: url(../../../images/solutionPages/solution/blockchain/BC_apply_1.png);
+// 		}
+// 		.item_2 {
+// 			background-image: url(../../../images/solutionPages/solution/blockchain/BC_apply_2.png);
+// 		}
+// 		.item_3 {
+// 			background-image: url(../../../images/solutionPages/solution/blockchain/BC_apply_3.png);
+// 		}
+// 		.item_4 {
+// 			background-image: url(../../../images/solutionPages/solution/blockchain/BC_apply_4.png);
+// 		}
+// 		.item_5 {
+// 			background-image: url(../../../images/solutionPages/solution/blockchain/BC_apply_5.png);
+// 		}
+// 	}
+// 	.exampleArea {
+// 		.item {
+// 			.CoInfoBox {
+// 				background-repeat: no-repeat;
+// 				background-size: auto 100%;
+// 				background-position: center center;
+// 			}
+// 		}
+// 		.item_1 {
+// 			.CoInfoBox {
+// 				background-image: url(../../../images/solutionPages/solution/blockchain/BC_example_1.png);
+// 			}
+// 		}
+// 	}
+
+// 	@media screen and (max-width: 1080px) {
+// 		.content {
+// 			.characteristicArea {
+// 				.itemsBox {
+// 					.row_1 {
+// 						width: 28%;
+// 					}
+// 					.row_2 {
+// 						width: 44%;
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 1023px) {
+// 	}
+// 	@media screen and (max-width: 768px) {
+// 		.content {
+// 			.itemsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+// 			.characteristicArea,
+// 			.typeArea {
+// 				.itemsBox {
+// 					.item_col {
+// 						width: 100%;
+// 						padding: 1.5em;
+// 						display: flex;
+// 						align-items: center;
+// 						margin-bottom: 1em;
+// 						.imgBox {
+// 							margin: unset;
+// 							margin-right: 1.5em;
+// 						}
+// 						.words {
+// 							width: 70%;
+// 							text-align: left;
+// 						}
+// 					}
+// 				}
+// 			}
+// 			.typeArea {
+// 				.item_table {
+// 					width: 95%;
+// 					margin: 1.5em 0em;
+// 					.bar {
+// 						min-height: unset;
+// 					}
+// 				}
+// 			}
+// 			.howArea {
+// 				.itemsBox {
+// 					flex-direction: row;
+// 				}
+// 			}
+// 		}
+// 		.applyArea {
+// 			.itemsBox {
+// 				flex-direction: row;
+// 				.item-row-3 {
+// 					width: 48%;
+// 				}
+// 				.item-row-2 {
+// 					width: 48%;
+// 				}
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 440px) {
+// 		.content {
+// 			.itemsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+// 			.item_row {
+// 				.words {
+// 					p {
+// 						font-size: 1.125em;
+// 					}
+// 				}
+// 			}
+// 			.abstractBox {
+// 				flex-direction: column-reverse;
+// 			}
+// 			.howArea {
+// 				.itemsBox {
+// 					flex-direction: column;
+// 					.item_col {
+// 						width: 100%;
+// 					}
+// 				}
+// 			}
+// 		}
+// 		.applyArea {
+// 			.itemsBox {
+// 				flex-direction: row;
+// 			}
+// 			.item {
+// 				width: 95% !important;
+// 				background-size: 100% 100%;
+// 			}
+// 		}
+// 	}
+// }

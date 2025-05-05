@@ -1,0 +1,339 @@
+#NewsAndPapers {
+	padding: 18em 0em;
+	.titleBox {
+		padding-left: 1em;
+		h2 {
+			font-weight: 700;
+			font-size: 3em;
+			line-height: 120%;
+			letter-spacing: 0.15em;
+			color: #ffffff;
+		}
+		p {
+			font-weight: 500;
+			font-size: 1.25em;
+			line-height: 140%;
+			letter-spacing: 0.08em;
+			color: #e1e6ef;
+		}
+	}
+	.bg-light-blue,
+	.bg-deep-blue {
+		max-width: 1920px;
+		padding: 3em 0em;
+	}
+	.bg-light-blue {
+		background-color: #071c45;
+	}
+	.NewsItem,
+	.PapersItem {
+		max-width: 1200px;
+		justify-content: center;
+		margin: auto;
+		.imgBox {
+			width: 484px;
+			height: 280px;
+			overflow: hidden;
+		}
+		.wordBox {
+			h3.itemTitle {
+				font-weight: 700;
+				font-size: 1.5em;
+				line-height: 117%;
+				letter-spacing: 0.1em;
+				color: #ffffff;
+				margin: initial;
+			}
+			p.itemTime {
+				font-weight: 500;
+				font-size: 1.25em;
+				line-height: 120%;
+				letter-spacing: 0.12em;
+				color: #e1e6ef;
+				margin: 10px 0px;
+			}
+			p.itemContent {
+				font-weight: 500;
+				font-size: 1.5em;
+				line-height: 160%;
+				letter-spacing: 0.12em;
+				color: #e1e6ef;
+			}
+		}
+	}
+	.p-tabview-nav {
+		max-width: 1200px;
+		margin: auto;
+		background-color: transparent;
+		border: initial;
+	}
+	.p-tabview-nav-link {
+		&:hover,
+		&:focus,
+		&.active {
+			color: #ffffff;
+			background: #1d3f82;
+			transition: all 300ms ease-in-out;
+			box-shadow: none;
+		}
+		background: transparent;
+		font-weight: 700;
+		font-size: 1.75em;
+		line-height: 100%;
+		transition: all 300ms ease-in-out;
+		letter-spacing: 0.1em;
+		padding: 0.85em 1.14em;
+		color: #abc1e9;
+		border: solid transparent;
+	}
+	.p-tabview .p-tabview-panels {
+		padding: 0em;
+		background-color: transparent;
+	}
+	.p-paginator {
+		background: transparent;
+	}
+	.p-paginator-pages .p-paginator-page.p-highlight {
+		background: transparent;
+		border-color: #e3f2fd;
+		color: #fff;
+	}
+	.underline {
+		width: 100%;
+		height: 2px;
+		border-bottom: 2px solid #1d3f82;
+	}
+}
+#NewsPage,
+#PapersPage {
+	padding-top: 18em;
+	.p-tabview-nav {
+		max-width: 1200px;
+		margin: auto;
+		background-color: transparent;
+		border: initial;
+	}
+
+	.p-tabview-nav-link {
+		&:hover,
+		&:focus {
+			color: #ffffff;
+			background: #1d3f82;
+			transition: all 300ms ease-in-out;
+			box-shadow: none;
+		}
+		background: transparent;
+		font-weight: 700;
+		font-size: 1.75em;
+		line-height: 100%;
+		transition: all 300ms ease-in-out;
+		letter-spacing: 0.1em;
+		padding: 0.85em 1.14em;
+		color: #abc1e9;
+		border: solid transparent;
+	}
+	.p-tabview .p-tabview-panels {
+		padding: 0em;
+		background-color: transparent;
+	}
+	.underline {
+		width: 100%;
+		height: 2px;
+		border-bottom: 2px solid #1d3f82;
+	}
+	.functionBtn-list {
+		max-width: 1200px;
+		margin: auto;
+		padding: 100px 0em;
+	}
+	.btn {
+		border: none;
+		box-shadow: none;
+		border-radius: 4px;
+		background: #1d3f82;
+		transition: all 300ms ease-in-out;
+		p {
+			font-weight: 700;
+			font-size: 1.25em;
+			line-height: 140%;
+			letter-spacing: 0.1em;
+			color: #ffffff;
+		}
+		&:hover {
+			background: #2a53a5;
+		}
+		&.disabled {
+			p {
+				color: #2c4880;
+			}
+			background-color: #162d59;
+		}
+	}
+}
+#NewsPage {
+	.content {
+		max-width: 1200px;
+		margin: auto;
+		.MainTitle {
+			font-weight: 700;
+			font-size: 3.75em;
+			line-height: 120%;
+			letter-spacing: 0.1em;
+			color: #fff;
+			@media screen and (max-width: 1080px) {
+				font-size: 3em;
+			}
+			@media screen and (max-width: 768px) {
+				font-size: 2em;
+			}
+			@media screen and (max-width: 440px) {
+				font-size: 1.5em;
+			}
+		}
+		.subtitle {
+			font-weight: 500;
+			font-size: 1.75em;
+			line-height: 120%;
+			letter-spacing: 0.12em;
+			@media screen and (max-width: 768px) {
+				font-size: 1.25em;
+			}
+		}
+		.imageContent {
+			font-weight: 500;
+			font-size: 1.125em;
+			line-height: 120%;
+			text-align: center;
+			letter-spacing: 0.12em;
+			color: #e1e6ef;
+			margin: 1.3em 0em;
+		}
+		.Title {
+			font-weight: 700;
+			font-size: 2em;
+			line-height: 120%;
+			letter-spacing: 0.12em;
+			color: #fff;
+			@media screen and (max-width: 1080px) {
+				font-size: 1.5em;
+			}
+			@media screen and (max-width: 440px) {
+				font-size: 1.375em;
+			}
+		}
+		.Text {
+			font-weight: 500;
+			font-size: 1.5em;
+			line-height: 120%;
+			letter-spacing: 0.12em;
+			margin: 1.3em 0em;
+			@media screen and (max-width: 1080px) {
+				font-size: 1.25em;
+			}
+			@media screen and (max-width: 768px) {
+				font-size: 1.125em;
+			}
+			@media screen and (max-width: 440px) {
+				font-size: 1em;
+			}
+		}
+	}
+}
+#PapersPage {
+	.content {
+		max-width: 1200px;
+		margin: auto;
+		.MainTitle {
+			font-weight: 700;
+			font-size: 3.75em;
+			line-height: 120%;
+			letter-spacing: 0.1em;
+			color: #fff;
+			@media screen and (max-width: 1080px) {
+				font-size: 3em;
+			}
+			@media screen and (max-width: 768px) {
+				font-size: 2em;
+			}
+			@media screen and (max-width: 440px) {
+				font-size: 1.5em;
+			}
+		}
+		.subtitle {
+			font-weight: 500;
+			font-size: 1.75em;
+			line-height: 120%;
+			letter-spacing: 0.12em;
+			@media screen and (max-width: 768px) {
+				font-size: 1.25em;
+			}
+		}
+		.imageContent {
+			font-weight: 500;
+			font-size: 1.125em;
+			line-height: 120%;
+			text-align: center;
+			letter-spacing: 0.12em;
+			color: #e1e6ef;
+			margin: 1.3em 0em;
+		}
+		.Title {
+			font-weight: 700;
+			font-size: 2em;
+			line-height: 120%;
+			letter-spacing: 0.12em;
+			color: #fff;
+			@media screen and (max-width: 1080px) {
+				font-size: 1.5em;
+			}
+			@media screen and (max-width: 440px) {
+				font-size: 1.375em;
+			}
+		}
+		.Text {
+			font-weight: 500;
+			font-size: 1.5em;
+			line-height: 120%;
+			letter-spacing: 0.12em;
+			margin: 1.3em 0em;
+			@media screen and (max-width: 1080px) {
+				font-size: 1.25em;
+			}
+			@media screen and (max-width: 768px) {
+				font-size: 1.125em;
+			}
+			@media screen and (max-width: 440px) {
+				font-size: 1em;
+			}
+		}
+		.list-content {
+			list-style: disc;
+			h5 {
+				font-weight: 700;
+				font-size: 1.375em;
+				line-height: 120%;
+				letter-spacing: 0.12em;
+			}
+			p {
+				font-weight: 500;
+				font-size: 1.25em;
+				line-height: 120%;
+				letter-spacing: 0.12em;
+				color: #e1e6ef;
+			}
+		}
+	}
+}
+.newsAndPapersPage {
+	width: 100%;
+	background-image: url(../../../images/bloom_bannerTop.svg);
+	background-repeat: no-repeat;
+	background-size: 100vw auto;
+	background-position: top center;
+	.PapersItem,
+	.NewsItem {
+		.content {
+			width: 50%;
+		}
+	}
+}

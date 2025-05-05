@@ -1,0 +1,380 @@
+// #solutionPage_Cloud {
+// 	@import './base';
+// 	.content {
+// 		padding-top: 0em;
+// 		padding-bottom: 0em;
+// 	}
+// 	.operationArea {
+// 		.itemsBox {
+// 			justify-content: space-around;
+// 			.item_row {
+// 				width: 29%;
+// 			}
+// 			.item_icon {
+// 				top: 1.375em;
+// 			}
+// 			.item_1 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(127, 176, 250, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/1.svg);
+// 				}
+// 			}
+// 			.item_2 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(134, 203, 161, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/2.svg);
+// 				}
+// 			}
+// 			.item_3 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(203, 197, 140, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/3.svg);
+// 				}
+// 			}
+// 		}
+// 	}
+// 	.securityArea {
+// 		.itemsBox {
+// 			justify-content: space-around;
+// 			.item_row {
+// 				width: 44%;
+// 			}
+// 			.item_col {
+// 				width: 30%;
+// 			}
+// 			.item_icon {
+// 				top: 1.375em;
+// 			}
+// 			.item_1 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(253, 148, 255, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/4.svg);
+// 				}
+// 			}
+// 			.item_2 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(255, 248, 231, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/5.svg);
+// 				}
+// 			}
+// 		}
+// 		.prerequisite {
+// 			margin-top: 5.625em;
+// 			h3 {
+// 				font-size: 2em;
+// 				letter-spacing: 0.08em;
+// 				line-height: 1em;
+// 				color: rgba(188, 200, 224, 1);
+// 			}
+// 			.itemsBox {
+// 				.item_1 {
+// 					background-color: rgba(91, 184, 197, 0.05);
+// 					.imgBox {
+// 						background-image: url(../../../../assets/images/solutionPages/solution/icloud/10.svg);
+// 					}
+// 					h4 {
+// 						color: rgba(144, 235, 255, 1);
+// 					}
+// 					p {
+// 						font-size: 1.2em;
+// 						line-height: 1.5em;
+// 						letter-spacing: 0.04em;
+// 						color: rgba(219, 248, 255, 1);
+// 					}
+// 				}
+// 				.item_2 {
+// 					background-color: rgba(58, 178, 85, 0.05);
+// 					.imgBox {
+// 						background-image: url(../../../../assets/images/solutionPages/solution/icloud/11.svg);
+// 					}
+// 					h4 {
+// 						color: rgba(156, 242, 154, 1);
+// 					}
+// 					p {
+// 						font-size: 1.2em;
+// 						line-height: 1.5em;
+// 						letter-spacing: 0.04em;
+// 						color: rgba(238, 255, 242, 1);
+// 					}
+// 				}
+// 				.item_3 {
+// 					background-color: rgba(178, 166, 58, 0.05);
+// 					.imgBox {
+// 						background-image: url(../../../../assets/images/solutionPages/solution/icloud/12.svg);
+// 					}
+// 					h4 {
+// 						color: rgba(251, 228, 147, 1);
+// 					}
+// 					p {
+// 						font-size: 1.2em;
+// 						line-height: 1.5em;
+// 						letter-spacing: 0.04em;
+// 						color: rgba(255, 253, 239, 1);
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// 	.backupArea {
+// 		.itemsBox {
+// 			justify-content: space-around;
+// 			.item_row {
+// 				width: 44%;
+// 			}
+// 			.item_icon {
+// 				top: 1.375em;
+// 			}
+// 			.item_1 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(255, 138, 131, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/6.svg);
+// 				}
+// 			}
+// 			.item_2 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(122, 226, 214, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/7.svg);
+// 				}
+// 			}
+// 			.item_3 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(163, 148, 255, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/8.svg);
+// 				}
+// 			}
+// 			.item_4 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(132, 225, 255, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/9.svg);
+// 				}
+// 			}
+// 		}
+// 	}
+// 	.applyArea {
+// 		.item_1 {
+// 			background-image: url(../../../images/solutionPages/solution/icloud/cloud_4.png);
+// 		}
+// 		.item_2 {
+// 			background-image: url(../../../images/solutionPages/solution/icloud/cloud_5.png);
+// 		}
+// 		.item_3 {
+// 			background-image: url(../../../images/solutionPages/solution/icloud/cloud_6.png);
+// 		}
+// 		.item_4 {
+// 			background-image: url(../../../images/solutionPages/solution/icloud/cloud_7.png);
+// 		}
+// 		.item_5 {
+// 			background-image: url(../../../images/solutionPages/solution/icloud/cloud_8.png);
+// 		}
+// 		.item_6 {
+// 			background-image: url(../../../images/solutionPages/solution/icloud/cloud_9.png);
+// 		}
+// 	}
+
+// 	.benefitBox {
+// 		.titleBox {
+// 			width: 40%;
+// 		}
+// 		.itemsBox {
+// 			width: 60%;
+// 			margin: initial;
+// 			.items {
+// 				padding: initial;
+// 			}
+// 		}
+// 	}
+
+// 	@media screen and (max-width: 1080px) {
+// 	}
+// 	@media screen and (max-width: 1023px) {
+// 	}
+// 	@media screen and (max-width: 768px) {
+// 		.content {
+// 			.titleBox {
+// 				text-align: center;
+// 				margin-bottom: 3.875em;
+// 				h2 {
+// 					font-size: 2em;
+// 					font-weight: 700;
+// 					margin-bottom: 0.5em;
+// 					letter-spacing: 0.12em;
+// 				}
+// 				p {
+// 					font-size: 1.25em;
+// 					letter-spacing: 0.1em;
+// 					line-height: 1.5em;
+// 					color: rgba(188, 200, 224, 1);
+// 				}
+// 			}
+// 			.itemsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+// 			.operationArea,
+// 			.securityArea,
+// 			.backupArea {
+// 				.itemsBox {
+// 					.item_row {
+// 						width: 90%;
+// 					}
+// 				}
+// 			}
+// 			.securityArea {
+// 				.itemsBox {
+// 					.item_col {
+// 						width: 100%;
+// 						padding: 1.5em;
+// 						display: flex;
+// 						align-items: center;
+// 						margin-bottom: 1em;
+// 						.imgBox {
+// 							margin: unset;
+// 							margin-right: 1.5em;
+// 						}
+// 						.words {
+// 							width: 70%;
+// 							text-align: left;
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 		.benefitBox {
+// 			flex-direction: column;
+// 			.titleBox {
+// 				margin: initial;
+// 				h2 {
+// 					font-size: 2.625em;
+// 					font-weight: 700;
+// 				}
+// 			}
+// 			.itemsBox {
+// 				width: 80%;
+// 			}
+// 		}
+// 		.applyArea {
+// 			.itemsBox {
+// 				flex-direction: row;
+// 			}
+// 			.item {
+// 				width: 45%;
+// 				background-size: auto 100%;
+// 			}
+// 			.abstract {
+// 				min-height: 17.5em;
+// 			}
+// 		}
+// 	}
+// 	@media screen and (max-width: 440px) {
+// 		.content {
+// 			.titleBox {
+// 				text-align: center;
+// 				margin-bottom: 3.875em;
+// 				h2 {
+// 					font-size: 2em;
+// 					font-weight: 700;
+// 					margin-bottom: 0.5em;
+// 					letter-spacing: 0.12em;
+// 				}
+// 				p {
+// 					font-size: 1.25em;
+// 					letter-spacing: 0.1em;
+// 					line-height: 1.5em;
+// 					color: rgba(188, 200, 224, 1);
+// 				}
+// 			}
+// 			.itemsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+// 			.item_row {
+// 				.words {
+// 					p {
+// 						font-size: 1.125em;
+// 					}
+// 				}
+// 			}
+// 			.operationArea,
+// 			.securityArea,
+// 			.backupArea {
+// 				.itemsBox {
+// 					.item_row {
+// 						width: 90%;
+// 					}
+// 				}
+// 			}
+// 			.securityArea {
+// 				.itemsBox {
+// 					.item_col {
+// 						width: 100%;
+// 						padding: 1.5em;
+// 						display: flex;
+// 						align-items: center;
+// 						margin-bottom: 1em;
+// 						.imgBox {
+// 							margin: unset;
+// 							margin-right: 1.5em;
+// 						}
+// 						.words {
+// 							width: 70%;
+// 							text-align: left;
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 		.contentBox {
+// 			.abstractBox {
+// 				flex-direction: column;
+// 				margin: 0em 1em;
+// 				p {
+// 					width: 100%;
+// 				}
+// 				.imgBox {
+// 					width: 100%;
+// 				}
+// 			}
+// 		}
+// 		.benefitBox {
+// 			.titleBox {
+// 				width: 100%;
+// 			}
+// 			.itemsBox {
+// 				width: 100%;
+// 			}
+// 			li.item {
+// 				width: 100%;
+// 				display: flex;
+// 				flex-direction: column;
+// 				align-items: center;
+// 				p {
+// 					text-align: center;
+// 				}
+// 			}
+// 		}
+// 		.applyArea {
+// 			.item {
+// 				width: 95%;
+// 				background-size: 100% 100%;
+// 			}
+// 		}
+// 	}
+// }

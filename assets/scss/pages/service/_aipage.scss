@@ -1,0 +1,432 @@
+// #solutionPage_AI {
+// 	@import './base';
+
+// 	.content {
+// 		padding-bottom: 0em;
+// 	}
+
+// 	.AIServicesItems {
+// 		display: flex;
+// 		justify-content: center;
+
+// 		.item {
+// 			display: flex;
+// 			align-items: center;
+// 			flex-direction: row-reverse;
+// 			background: #244179;
+// 			border-radius: 1em;
+// 			padding: 1.5em;
+// 			margin: 1em;
+// 			max-width: 585px;
+
+// 			.imgBox {
+// 				width: 100%;
+// 				max-width: 250px;
+// 			}
+// 		}
+
+// 		.wordsBox {
+// 			h3 {
+// 				margin: initial;
+// 				font-weight: 700;
+// 				font-size: 1.75em;
+// 				line-height: 120%;
+// 				text-align: justify;
+// 				letter-spacing: 0.12em;
+// 				color: #ffffff;
+// 			}
+
+// 			p {
+// 				margin: initial;
+// 				font-weight: 500;
+// 				font-size: 1.25em;
+// 				line-height: 150%;
+// 				letter-spacing: 0.04em;
+// 				color: #dbf8ff;
+// 			}
+
+// 			a.btn {
+// 				margin-top: 10px;
+// 			}
+// 		}
+// 	}
+
+// 	.howArea {
+// 		max-width: 1440px;
+
+// 		p {
+// 			font-weight: 500;
+// 			font-size: 1.75em;
+// 			line-height: 1.5em;
+// 			text-align: center;
+// 			letter-spacing: 112%;
+// 			color: #e1e6ef;
+// 			max-width: 1200px;
+// 			margin: auto;
+// 		}
+
+// 		.itemsBox {
+// 			justify-content: space-around;
+
+// 			.item_row {
+// 				width: 44%;
+// 			}
+
+// 			.item_col {
+// 				width: 30%;
+// 			}
+
+// 			.item_icon {
+// 				top: 1.375em;
+// 			}
+
+// 			.item_1 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(253, 148, 255, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/4.svg);
+// 				}
+// 			}
+
+// 			.item_2 {
+// 				.item_icon {
+// 					@extend %backgroundImgSetting;
+// 					background-size: 80% 80%;
+// 					background-color: rgba(255, 248, 231, 0.3);
+// 					background-image: url(../../../../assets/images/solutionPages/solution/icloud/5.svg);
+// 				}
+// 			}
+// 		}
+
+// 		.ETL {
+// 			margin-top: 5.625em;
+
+// 			h3 {
+// 				font-size: 2em;
+// 				letter-spacing: 0.08em;
+// 				line-height: 1em;
+// 				color: rgba(188, 200, 224, 1);
+// 			}
+
+// 			.itemsBox {
+// 				.item_1 {
+// 					background-color: rgba(91, 184, 197, 0.05);
+
+// 					.imgBox {
+// 						background-image: url(../../../../assets/images/solutionPages/solution/ai/AI_icon_1.svg);
+// 					}
+
+// 					h4 {
+// 						color: rgba(144, 235, 255, 1);
+// 					}
+
+// 					p {
+// 						font-size: 1.2em;
+// 						line-height: 1.5em;
+// 						letter-spacing: 0.04em;
+// 						color: rgba(219, 248, 255, 1);
+// 					}
+// 				}
+
+// 				.item_2 {
+// 					background-color: rgba(58, 178, 85, 0.05);
+
+// 					.imgBox {
+// 						background-image: url(../../../../assets/on/ai/AI_icon_2.svg);
+// 					}
+
+// 					h4 {
+// 						color: rgba(156, 242, 154, 1);
+// 					}
+
+// 					p {
+// 						font-size: 1.2em;
+// 						line-height: 1.5em;
+// 						letter-spacing: 0.04em;
+// 						color: rgba(238, 255, 242, 1);
+// 					}
+// 				}
+
+// 				.item_3 {
+// 					background-color: rgba(178, 166, 58, 0.05);
+
+// 					.imgBox {
+// 						background-image: url(../../../../assets/images/solutionPages/solution/ai/AI_icon_3.svg);
+// 					}
+
+// 					h4 {
+// 						color: rgba(251, 228, 147, 1);
+// 					}
+
+// 					p {
+// 						font-size: 1.2em;
+// 						line-height: 1.5em;
+// 						letter-spacing: 0.04em;
+// 						color: rgba(255, 253, 239, 1);
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+
+// 	.benefitBox {
+// 		.itemsBox {
+// 			.items {
+// 				display: flex;
+// 				flex-wrap: wrap;
+// 				align-items: baseline;
+// 				justify-content: space-between;
+
+// 				.item {
+// 					p {
+// 						margin-top: 1em;
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+
+// 	.applyArea {
+// 		.item {
+// 			width: 45%;
+// 		}
+
+// 		.item_1 {
+// 			background-image: url(../../../images/solutionPages/solution/datastorage/DB_2.png);
+// 		}
+
+// 		.item_2 {
+// 			background-image: url(../../../images/solutionPages/solution/datastorage/DB_3.png);
+// 		}
+
+// 		.item_3 {
+// 			background-image: url(../../../images/solutionPages/solution/datastorage/DB_4.png);
+// 		}
+
+// 		.item_4 {
+// 			background-image: url(../../../images/solutionPages/solution/datastorage/DB_5.png);
+// 		}
+// 	}
+
+// 	.exampleArea {
+// 		.mySwiper.row-2 {
+// 			.swiper-slide {
+// 				&:nth-child(1) {
+// 					justify-content: flex-end;
+// 				}
+
+// 				&:nth-child(2) {
+// 					justify-content: flex-start;
+// 				}
+// 			}
+// 		}
+
+// 		.item {
+// 			.CoInfoBox {
+// 				background-repeat: no-repeat;
+// 				background-size: auto 100%;
+// 				background-position: center center;
+// 			}
+// 		}
+
+// 		.item_1 {
+// 			.CoInfoBox {
+// 				background-image: url(../../../images/solutionPages/solution/ai/AI_example_1.png);
+// 			}
+// 		}
+
+// 		.item_2 {
+// 			.CoInfoBox {
+// 				background-image: url(../../../images/solutionPages/solution/ai/AI_example_2.png);
+// 			}
+// 		}
+// 	}
+
+// 	@media screen and (max-width: 1080px) {
+// 		.howArea {
+// 			p {
+// 				font-size: 1.25em;
+// 			}
+// 		}
+// 	}
+
+// 	@media screen and (max-width: 1023px) {
+// 		.AIServicesItems {
+// 			display: flex;
+// 			justify-content: center;
+// 			flex-wrap: wrap;
+
+// 			.item {
+// 				width: 95%;
+// 				max-width: unset;
+// 				justify-content: space-between;
+
+// 				.btn {
+// 					margin-top: 5em;
+// 				}
+
+// 				.wordsBox {
+// 					width: 50%;
+// 				}
+
+// 				.imgBox {
+// 					width: 50%;
+// 					max-width: unset;
+// 				}
+// 			}
+// 		}
+// 	}
+
+// 	@media screen and (max-width: 768px) {
+// 		.content {
+// 			.titleBox {
+// 				text-align: center;
+// 				margin-bottom: 3.875em;
+
+// 				h2 {
+// 					font-size: 2em;
+// 					font-weight: 700;
+// 					margin-bottom: 0.5em;
+// 					letter-spacing: 0.12em;
+// 				}
+
+// 				p {
+// 					font-size: 1.25em;
+// 					letter-spacing: 0.1em;
+// 					line-height: 1.5em;
+// 					color: rgba(188, 200, 224, 1);
+// 				}
+// 			}
+
+// 			.itemsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+
+// 			.howArea,
+// 			.benefitArea {
+// 				.itemsBox {
+// 					.item_row {
+// 						width: 90%;
+// 					}
+// 				}
+// 			}
+
+// 			.howArea,
+// 			.benefitArea {
+// 				.itemsBox {
+// 					.item_col {
+// 						width: 100%;
+// 						padding: 1.5em;
+// 						display: flex;
+// 						align-items: center;
+// 						margin-bottom: 1em;
+
+// 						.imgBox {
+// 							margin: unset;
+// 							margin-right: 1.5em;
+// 						}
+
+// 						.words {
+// 							width: 70%;
+// 							text-align: left;
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+
+// 		.applyArea {
+// 			.itemsBox {
+// 				flex-direction: row;
+// 			}
+// 		}
+
+// 		.exampleArea {
+// 			.mySwiper.row-2 {
+// 				.swiper-slide {
+
+// 					&:nth-child(1),
+// 					&:nth-child(2) {
+// 						justify-content: center;
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+
+// 	@media screen and (max-width: 440px) {
+// 		.content {
+// 			.titleBox {
+// 				text-align: center;
+// 				margin-bottom: 3.875em;
+
+// 				h2 {
+// 					font-size: 2em;
+// 					font-weight: 700;
+// 					margin-bottom: 0.5em;
+// 					letter-spacing: 0.12em;
+// 				}
+
+// 				p {
+// 					font-size: 1.25em;
+// 					letter-spacing: 0.1em;
+// 					line-height: 1.5em;
+// 					color: rgba(188, 200, 224, 1);
+// 				}
+// 			}
+
+// 			.itemsBox {
+// 				flex-direction: column;
+// 				align-items: center;
+// 			}
+
+// 			.item_row {
+// 				.words {
+// 					p {
+// 						font-size: 1.125em;
+// 					}
+// 				}
+// 			}
+// 		}
+
+// 		.applyArea {
+// 			.itemsBox {
+// 				flex-direction: row;
+// 			}
+
+// 			.item {
+// 				width: 95%;
+// 				background-size: 100% 100%;
+// 			}
+// 		}
+
+// 		.howArea {
+// 			padding-right: 1em;
+// 			padding-left: 1em;
+// 		}
+
+// 		.AIServicesItems {
+// 			.item {
+// 				width: 95%;
+// 				max-width: unset;
+// 				flex-direction: column;
+
+// 				.btn {
+// 					margin-top: 3em;
+// 				}
+
+// 				.wordsBox {
+// 					width: 100%;
+// 					margin-top: 1em;
+// 				}
+
+// 				.imgBox {
+// 					width: 100%;
+// 					max-width: unset;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
