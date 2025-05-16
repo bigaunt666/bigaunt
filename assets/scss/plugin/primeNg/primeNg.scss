@@ -168,8 +168,18 @@ p-inputnumber,
 	}
 }
 
+p-dataView {
+	width: 100%;
+	max-width: 40vw; /* 控制資料列最大寬度 */
+	display: flex;
+}
+
 @media screen and (max-width: 440px) {
 	.p-dialog .p-dialog-content {
 		// padding: 2rem 1.5rem;
+	}
+
+	p-dataView {
+		max-width: 45vw; /* 控制資料列最大寬度 */
 	}
 }
