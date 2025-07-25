@@ -172,6 +172,14 @@ p-dataView {
 	width: 100%;
 	max-width: 40vw; /* 控制資料列最大寬度 */
 	display: flex;
+
+	.p-dataview-emptymessage {
+		display: none !important;
+	}
+
+	.p-dataview-footer {
+		border: unset !important;
+	}
 }
 
 @media screen and (max-width: 440px) {
