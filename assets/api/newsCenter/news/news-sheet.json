@@ -1,159 +1,135 @@
 [
 	{
-		"Date": "2025-01-23",
-		"Type": "新聞 ｜ AI，智慧治理，智慧系統，ESG，數位轉型",
+		"Date": "BAS-004",
+		"Type": "湖人隊",
 		"TypeEN": "news",
-		"Content": "泛亞工程導入AI智慧系統 聯合坤侑科技邁向ESG",
-		"Image": "/assets/images/newsPage/news/ai-system-in-collaboration-to-advance-esg-goals.webp",
+		"Content": "2024-25 Mosaic LeBron James Notoriety Gold 7/10",
+		"Image": "/bigaunt/assets/images/share/BAS-004-01.jpg",
 		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
 		"Highlight": true,
 		"HighlightSlogan": "",
 		"Tags": [
-			"AI",
-			"智慧治理",
-			"智慧系統",
-			"ESG",
-			"數位轉型"
+			"湖人",
+			"老詹"
 		]
 	},
 	{
-		"Date": "2024-12-25",
-		"Type": "新聞 ｜ AI，智慧防詐，網址驗證，網路信任",
+		"Date": "BAS-004",
+		"Type": "76人隊",
 		"TypeEN": "news",
-		"Content": "坤侑科技攜手REALTEK INFORMATICS TELECOM 建構AI防詐信任服務",
-		"Image": "/assets/images/newsPage/news/ai-anti-fraud-trust-service-overseas-collaboration.webp",
+		"Content": "2024-25 Mosaic Jared McCain Rookie Collage Auto Blue 30/35",
+		"Image": "/bigaunt/assets/images/share/BAS-004-02.jpg",
 		"FileTitle": "ai-anti-fraud-trust-service-overseas-collaboration",
 		"Highlight": true,
 		"HighlightSlogan": "",
 		"Tags": [
-			"AI",
-			"智慧防詐",
-			"網址驗證",
-			"網路信任"
+			"魔仙",
+			"抖音"
 		]
 	},
 	{
-		"Date": "2024-05-31",
-		"Type": "新聞 ｜ 網址詐騙，AI防詐，數位信任，數位韌性，網址驗證，釣魚攻擊",
+		"Date": "BAS-005",
+		"Type": "魔術隊",
 		"TypeEN": "news",
-		"Content": "貼上網址就能判斷詐騙！坤侑科技全新AI防詐服務 守護企業與民眾荷包",
-		"Image": "/assets/images/newsPage/news/paste-the-url-to-detect-scams.webp",
+		"Content": "2024-25 Photogenic Paolo Banchero Burst Rate Auto Silver 36/99",
+		"Image": "/bigaunt/assets/images/share/BAS-005-01.jpg",
 		"FileTitle": "paste-the-url-to-detect-scams",
 		"Highlight": true,
 		"HighlightSlogan": "",
 		"Tags": [
-			"網址詐騙",
-			"AI防詐",
-			"數位信任",
-			"數位韌性",
-			"網址驗證",
-			"釣魚攻擊"
+			"板橋羅"
 		]
 	},
 	{
-		"Date": "2024-02-07",
-		"Type": "新聞 ｜ 虛擬貨幣，洗錢詐欺，數據分析，科技偵查，金融科技犯罪，金流調閱",
+		"Date": "BAS-004 & 005 - Bonus",
+		"Type": "騎士隊",
 		"TypeEN": "news",
-		"Content": "執法新利器「虛擬貨幣數據分析平台」 防範虛擬貨幣洗錢及詐欺犯罪",
-		"Image": "/assets/images/newsPage/news/new-law-enforcement-tool.jpg",
+		"Content": "2015-16 Totally Certified On-Card Auto 12/25",
+		"Image": "/bigaunt/assets/images/share/BAS-005-Bonus.jpg",
+		"FileTitle": "paste-the-url-to-detect-scams",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"歐神"
+		]
+	},
+	{
+		"Date": "BAS-006",
+		"Type": "湖人隊",
+		"TypeEN": "news",
+		"Content": "2024-25 Mosaic Dalton Knecht Silver RPA",
+		"Image": "/bigaunt/assets/images/share/BAS-006-01.jpg",
 		"FileTitle": "new-law-enforcement-tool",
 		"Highlight": true,
 		"HighlightSlogan": "",
 		"Tags": [
-			"虛擬貨幣",
-			"洗錢詐欺",
-			"數據分析",
-			"科技偵查",
-			"金融科技犯罪",
-			"金流調閱"
+			"潛力新秀"
 		]
 	},
 	{
-		"Date": "2024-01-17",
-		"Type": "新聞 ｜ 實驗室，LIMS，數位鑑識，海巡署，偵防分署，ISO17025",
+		"Date": "BAS-007",
+		"Type": "太陽隊",
 		"TypeEN": "news",
-		"Content": "坤侑科技實驗室管理系統(LIMS)，為鑑驗偵查迎來科技變革！",
-		"Image": "/assets/images/newsPage/news/kunyou-technology-laboratory-information-management-system.jpg",
+		"Content": "2024-25 Donruss Optic Kevin Durant Net Marvels Green 5/5",
+		"Image": "/bigaunt/assets/images/share/BAS-007-01.jpg",
+		"FileTitle": "new-law-enforcement-tool",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"死神"
+		]
+	},
+	{
+		"Date": "BAS-007",
+		"Type": "灰熊隊",
+		"TypeEN": "news",
+		"Content": "2024-25 Donruss Optic Yuki Kawamura Rated Rookie Pink Velocity Auto 48/79",
+		"Image": "/bigaunt/assets/images/share/BAS-007-02.jpg",
 		"FileTitle": "kunyou-technology-laboratory-information-management-system",
 		"Highlight": true,
 		"HighlightSlogan": "",
 		"Tags": [
-			"實驗室",
-			"LIMS",
-			"數位鑑識",
-			"海巡署",
-			"偵防分署",
-			"ISO17025"
+			"河村勇輝"
 		]
 	},
 	{
-		"Date": "2024-01-14",
-		"Type": "新聞 ｜ 大數據，海巡署，情資蒐集，科技偵查",
+		"Date": "BAS-008",
+		"Type": "黃蜂隊",
 		"TypeEN": "news",
-		"Content": "大數據抓偷渡　海巡署屏東外海逮30越南籍人士企圖闖關",
-		"Image": "/assets/images/newsPage/news/big-data-captures-illegal-immigrants.webp",
+		"Content": "2024-25 Silhouette Brandon Miller NBA Gear Laundry Tag 3/5",
+		"Image": "/bigaunt/assets/images/share/BAS-008-01.jpg",
 		"FileTitle": "big-data-captures-illegal-immigrants",
 		"Highlight": true,
 		"HighlightSlogan": "",
 		"Tags": [
-			"大數據",
-			"海巡署",
-			"情資蒐集",
-			"科技偵查"
+			"榜眼"
 		]
 	},
 	{
-		"Date": "2023-05-15",
-		"Type": "新聞 ｜ ESG，科技偵查，視覺化分析，客戶滿意度，永續經營，智慧創新",
+		"Date": "BAS-002",
+		"Type": "火箭隊",
 		"TypeEN": "news",
-		"Content": "坤侑攜手政府前進ESG 新科技應用創未來永續",
-		"Image": "/assets/images/newsPage/news/kunyou-teams-up-with-the-government-to-advance-esg.webp",
-		"FileTitle": "kunyou-teams-up-with-the-government-to-advance-esg",
+		"Content": "2024-25 Court Kings Artistry In Motion black 4/8",
+		"Image": "/bigaunt/assets/images/share/BAS-002-01.jpg",
+		"FileTitle": "big-data-captures-illegal-immigrants",
 		"Highlight": true,
 		"HighlightSlogan": "",
 		"Tags": [
-			"ESG",
-			"科技偵查",
-			"視覺化分析",
-			"客戶滿意度",
-			"永續經營",
-			"智慧創新"
+			"移動長城",
+			"姚主席"
 		]
 	},
 	{
-		"Date": "2022-01-12",
-		"Type": "新聞 ｜ 科技監控，司法院，法務部，電子腳環，電子手環，電子圍籬",
+		"Date": "BAS-001",
+		"Type": "熱火隊",
 		"TypeEN": "news",
-		"Content": "科技設備監控中心揭牌 打造全方位科技防逃網",
-		"Image": "/assets/images/newsPage/news/inauguration-of-the-technology-equipment-monitoring-center.webp",
-		"FileTitle": "inauguration-of-the-technology-equipment-monitoring-center",
+		"Content": "2024-25 Court Kings Artistic Endeavors 1/10 game worn",
+		"Image": "/bigaunt/assets/images/share/BAS-001-01.jpg",
+		"FileTitle": "big-data-captures-illegal-immigrants",
 		"Highlight": true,
 		"HighlightSlogan": "",
 		"Tags": [
-			"科技監控",
-			"司法院",
-			"法務部",
-			"電子腳環",
-			"電子手環",
-			"電子圍籬"
-		]
-	},
-	{
-		"Date": "2022-01-02",
-		"Type": "新聞 ｜ 海巡署，偵防分署，犯罪分析，車牌辨識，船舶監控，黑名單",
-		"TypeEN": "news",
-		"Content": "防堵走私犯罪 海巡署擬建車船軌跡分析系統",
-		"Image": "/assets/images/newsPage/news/preventing-smuggling-crimes.webp",
-		"FileTitle": "preventing-smuggling-crimes",
-		"Highlight": true,
-		"HighlightSlogan": "",
-		"Tags": [
-			"海巡署",
-			"偵防分署",
-			"犯罪分析",
-			"車牌辨識",
-			"船舶監控",
-			"黑名單"
+			"阿爹"
 		]
 	}
 ]
