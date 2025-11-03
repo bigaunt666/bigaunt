@@ -142,5 +142,38 @@
 		"Highlight": true,
 		"HighlightSlogan": "",
 		"Tags": []
+	},
+	{
+		"Date": "BAS-012",
+		"Type": "湖人隊",
+		"TypeEN": "news",
+		"Content": "2024-25 Photogenic LeBron James Dimond 11/75",
+		"Image": "/bigaunt/assets/images/share/BAS-012-01.jpg",
+		"FileTitle": "big-data-captures-illegal-immigrants",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": []
+	},
+	{
+		"Date": "BAS-012",
+		"Type": "公牛隊",
+		"TypeEN": "news",
+		"Content": "2024-25 Photogenic Derrick Rose Scrapbook",
+		"Image": "/bigaunt/assets/images/share/BAS-012-02.jpg",
+		"FileTitle": "big-data-captures-illegal-immigrants",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": []
+	},
+	{
+		"Date": "BAS-012",
+		"Type": "籃網隊",
+		"TypeEN": "news",
+		"Content": "2024-25 Photogenic Yongxi Jacky Cui Groovy Auto 23/35",
+		"Image": "/bigaunt/assets/images/share/BAS-012-03.jpg",
+		"FileTitle": "big-data-captures-illegal-immigrants",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": []
 	}
 ]
