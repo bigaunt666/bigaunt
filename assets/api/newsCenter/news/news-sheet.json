@@ -1,5 +1,44 @@
 [
 	{
+		"Date": "BAS-021",
+		"Type": "巫師隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Chrome Alex Sarr Green Refractor On-Card Auto 31/99",
+		"Image": "/bigaunt/assets/images/share/BAS-021-01.png",
+		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"巫師"
+		]
+	},
+	{
+		"Date": "BAS-021",
+		"Type": "籃網隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Chrome Egor Dëmin Next Stop Signatures Auto",
+		"Image": "/bigaunt/assets/images/share/BAS-021-02.png",
+		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"籃網"
+		]
+	},
+	{
+		"Date": "BAS-021",
+		"Type": "快艇隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Chrome Kobe Sanders Gold Refractor Certified Auto Issue 20/50",
+		"Image": "/bigaunt/assets/images/share/BAS-021-03.jpg",
+		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"快艇"
+		]
+	},
+	{
 		"Date": "BAS-016",
 		"Type": "公鹿隊",
 		"TypeEN": "news",
