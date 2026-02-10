@@ -1,5 +1,109 @@
 [
 	{
+		"Date": "BAS-028",
+		"Type": "湖人隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Midnight Lebron James Dreamland SSP",
+		"Image": "/bigaunt/assets/images/share/BAS-028-01.jpg",
+		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"湖人"
+		]
+	},
+	{
+		"Date": "BAS-028",
+		"Type": "獨行俠隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Chrome Cooper Flagg Refractor",
+		"Image": "/bigaunt/assets/images/share/BAS-028-02.jpg",
+		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"獨行俠"
+		]
+	},
+	{
+		"Date": "BAS-028",
+		"Type": "爵士隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Midnight Ace Bailey Dark Matter On-Card Auto",
+		"Image": "/bigaunt/assets/images/share/BAS-028-03.jpg",
+		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"爵士"
+		]
+	},
+	{
+		"Date": "BAS-028",
+		"Type": "雷霆隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Midnight Brooks Barnhizer On-Card Auto",
+		"Image": "/bigaunt/assets/images/share/BAS-028-04.jpg",
+		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"雷霆"
+		]
+	},
+	{
+		"Date": "BAS-025",
+		"Type": "獨行俠隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Chrome Cooper Flagg X Fractor & Ray Wave Refractor",
+		"Image": "/bigaunt/assets/images/share/BAS-025-01.jpg",
+		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"獨行俠"
+		]
+	},
+	{
+		"Date": "BAS-025",
+		"Type": "超音速隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Chrome Ray Allen Fanatical SSP",
+		"Image": "/bigaunt/assets/images/share/BAS-025-02.jpg",
+		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"超音速"
+		]
+	},
+	{
+		"Date": "BAS-025",
+		"Type": "活塞隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Chrome Cade Cunningham Fanatical SSP",
+		"Image": "/bigaunt/assets/images/share/BAS-025-03.jpg",
+		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"活塞"
+		]
+	},
+	{
+		"Date": "BAS-024",
+		"Type": "老鷹隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Chrome Asa Newell Advisory SSP",
+		"Image": "/bigaunt/assets/images/share/BAS-024-01.jpg",
+		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"老鷹"
+		]
+	},
+	{
 		"Date": "BAS-016",
 		"Type": "公鹿隊",
 		"TypeEN": "news",
