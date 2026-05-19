@@ -1,5 +1,96 @@
 [
 	{
+		"Date": "BAS-036",
+		"Type": "賽爾提克隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Bowman Basketball Jayson Tatum Auto Gold Mojo Parallel /50",
+		"Image": "/bigaunt/assets/images/share/BAS-036-01.jpg",
+		"FileTitle": "Celtics",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"鐵圖姆"
+		]
+	},
+	{
+		"Date": "BAS-036",
+		"Type": "黃蜂隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Bowman Basketball Kon Knueppel Burgundy Mojo 231/275",
+		"Image": "/bigaunt/assets/images/share/BAS-036-02.jpg",
+		"FileTitle": "Hornets",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"奶頭哥"
+		]
+	},
+	{
+		"Date": "BAS-036",
+		"Type": "馬刺隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Bowman Basketball Victor Wembanyama Aqua Mojo 123/175",
+		"Image": "/bigaunt/assets/images/share/BAS-036-03.jpg",
+		"FileTitle": "Spurs",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"斑馬"
+		]
+	},
+	{
+		"Date": "BAS-032",
+		"Type": "潛力大學生",
+		"TypeEN": "news",
+		"Content": "2025 Topps McDonald’s All American AJ Dybantsa One Trip Ticket 22/50",
+		"Image": "/bigaunt/assets/images/share/BAS-032-01.jpg",
+		"FileTitle": "AJ",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"AJ"
+		]
+	},
+	{
+		"Date": "BAS-032",
+		"Type": "潛力大學生",
+		"TypeEN": "news",
+		"Content": "2025 Topps McDonald’s All American Brayden Burries On-Card Auto",
+		"Image": "/bigaunt/assets/images/share/BAS-032-02.jpg",
+		"FileTitle": "Burries",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"Burries"
+		]
+	},
+	{
+		"Date": "BAS-031",
+		"Type": "灰熊隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Finest Cedric Coward Rookie Master Auto 5/99",
+		"Image": "/bigaunt/assets/images/share/BAS-031-01.jpg",
+		"FileTitle": "Grizzles",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"Grizzles"
+		]
+	},
+	{
+		"Date": "BAS-030",
+		"Type": "鵜鶘隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Basketball Finest Derik Queen Rookies Auto",
+		"Image": "/bigaunt/assets/images/share/BAS-030-01.jpg",
+		"FileTitle": "Pelicans",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"皇后哥"
+		]
+	},
+	{
 		"Date": "BAS-028",
 		"Type": "湖人隊",
 		"TypeEN": "news",
@@ -156,70 +247,16 @@
 		]
 	},
 	{
-		"Date": "BAS-004",
-		"Type": "湖人隊",
+		"Date": "BAS-008",
+		"Type": "黃蜂隊",
 		"TypeEN": "news",
-		"Content": "2024-25 Mosaic LeBron James Notoriety Gold 7/10",
-		"Image": "/bigaunt/assets/images/share/BAS-004-01.jpg",
-		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Content": "2024-25 Silhouette Brandon Miller NBA Gear Laundry Tag 3/5",
+		"Image": "/bigaunt/assets/images/share/BAS-008-01.jpg",
+		"FileTitle": "big-data-captures-illegal-immigrants",
 		"Highlight": true,
 		"HighlightSlogan": "",
 		"Tags": [
-			"湖人",
-			"老詹"
-		]
-	},
-	{
-		"Date": "BAS-004",
-		"Type": "76人隊",
-		"TypeEN": "news",
-		"Content": "2024-25 Mosaic Jared McCain Rookie Collage Auto Blue 30/35",
-		"Image": "/bigaunt/assets/images/share/BAS-004-02.jpg",
-		"FileTitle": "ai-anti-fraud-trust-service-overseas-collaboration",
-		"Highlight": true,
-		"HighlightSlogan": "",
-		"Tags": [
-			"魔仙",
-			"抖音"
-		]
-	},
-	{
-		"Date": "BAS-005",
-		"Type": "魔術隊",
-		"TypeEN": "news",
-		"Content": "2024-25 Photogenic Paolo Banchero Burst Rate Auto Silver 36/99",
-		"Image": "/bigaunt/assets/images/share/BAS-005-01.jpg",
-		"FileTitle": "paste-the-url-to-detect-scams",
-		"Highlight": true,
-		"HighlightSlogan": "",
-		"Tags": [
-			"板橋羅"
-		]
-	},
-	{
-		"Date": "BAS-004 & 005 - Bonus",
-		"Type": "騎士隊",
-		"TypeEN": "news",
-		"Content": "2015-16 Totally Certified On-Card Auto 12/25",
-		"Image": "/bigaunt/assets/images/share/BAS-005-Bonus.jpg",
-		"FileTitle": "paste-the-url-to-detect-scams",
-		"Highlight": true,
-		"HighlightSlogan": "",
-		"Tags": [
-			"歐神"
-		]
-	},
-	{
-		"Date": "BAS-006",
-		"Type": "湖人隊",
-		"TypeEN": "news",
-		"Content": "2024-25 Mosaic Dalton Knecht Silver RPA",
-		"Image": "/bigaunt/assets/images/share/BAS-006-01.jpg",
-		"FileTitle": "new-law-enforcement-tool",
-		"Highlight": true,
-		"HighlightSlogan": "",
-		"Tags": [
-			"潛力新秀"
+			"榜眼"
 		]
 	},
 	{
@@ -249,16 +286,70 @@
 		]
 	},
 	{
-		"Date": "BAS-008",
-		"Type": "黃蜂隊",
+		"Date": "BAS-006",
+		"Type": "湖人隊",
 		"TypeEN": "news",
-		"Content": "2024-25 Silhouette Brandon Miller NBA Gear Laundry Tag 3/5",
-		"Image": "/bigaunt/assets/images/share/BAS-008-01.jpg",
-		"FileTitle": "big-data-captures-illegal-immigrants",
+		"Content": "2024-25 Mosaic Dalton Knecht Silver RPA",
+		"Image": "/bigaunt/assets/images/share/BAS-006-01.jpg",
+		"FileTitle": "new-law-enforcement-tool",
 		"Highlight": true,
 		"HighlightSlogan": "",
 		"Tags": [
-			"榜眼"
+			"潛力新秀"
+		]
+	},
+	{
+		"Date": "BAS-004 & 005 - Bonus",
+		"Type": "騎士隊",
+		"TypeEN": "news",
+		"Content": "2015-16 Totally Certified On-Card Auto 12/25",
+		"Image": "/bigaunt/assets/images/share/BAS-005-Bonus.jpg",
+		"FileTitle": "paste-the-url-to-detect-scams",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"歐神"
+		]
+	},
+	{
+		"Date": "BAS-005",
+		"Type": "魔術隊",
+		"TypeEN": "news",
+		"Content": "2024-25 Photogenic Paolo Banchero Burst Rate Auto Silver 36/99",
+		"Image": "/bigaunt/assets/images/share/BAS-005-01.jpg",
+		"FileTitle": "paste-the-url-to-detect-scams",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"板橋羅"
+		]
+	},
+	{
+		"Date": "BAS-004",
+		"Type": "湖人隊",
+		"TypeEN": "news",
+		"Content": "2024-25 Mosaic LeBron James Notoriety Gold 7/10",
+		"Image": "/bigaunt/assets/images/share/BAS-004-01.jpg",
+		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"湖人",
+			"老詹"
+		]
+	},
+	{
+		"Date": "BAS-004",
+		"Type": "76人隊",
+		"TypeEN": "news",
+		"Content": "2024-25 Mosaic Jared McCain Rookie Collage Auto Blue 30/35",
+		"Image": "/bigaunt/assets/images/share/BAS-004-02.jpg",
+		"FileTitle": "ai-anti-fraud-trust-service-overseas-collaboration",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"魔仙",
+			"抖音"
 		]
 	},
 	{
@@ -287,38 +378,5 @@
 		"Tags": [
 			"阿爹"
 		]
-	},
-	{
-		"Date": "BAS-010",
-		"Type": "活塞隊",
-		"TypeEN": "news",
-		"Content": "2024-25 Obsidian Jaden Ivey Electric Etch Molten Mojo Flood 1/10",
-		"Image": "/bigaunt/assets/images/share/BAS-010-01.png",
-		"FileTitle": "big-data-captures-illegal-immigrants",
-		"Highlight": true,
-		"HighlightSlogan": "",
-		"Tags": []
-	},
-	{
-		"Date": "BAS-012",
-		"Type": "湖人隊",
-		"TypeEN": "news",
-		"Content": "2024-25 Photogenic LeBron James Dimond 11/75",
-		"Image": "/bigaunt/assets/images/share/BAS-012-01.jpg",
-		"FileTitle": "big-data-captures-illegal-immigrants",
-		"Highlight": true,
-		"HighlightSlogan": "",
-		"Tags": []
-	},
-	{
-		"Date": "BAS-012",
-		"Type": "公牛隊",
-		"TypeEN": "news",
-		"Content": "2024-25 Photogenic Derrick Rose Scrapbook",
-		"Image": "/bigaunt/assets/images/share/BAS-012-02.jpg",
-		"FileTitle": "big-data-captures-illegal-immigrants",
-		"Highlight": true,
-		"HighlightSlogan": "",
-		"Tags": []
 	}
 ]
