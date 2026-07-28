@@ -583,11 +583,10 @@ nav {
 	.navbar-collapse {
 		position: absolute;
 		width: 100%;
-		height: calc(100vh - 3.875rem);
-		height: calc(100dvh - 3.875rem);
-		// height: 100vh !important;
-		// height: 100dvh !important;
-		overflow-y: scroll;
+		height: auto;
+		max-height: calc(100vh - 3.875rem);
+		max-height: calc(100dvh - 3.875rem);
+		overflow-y: auto;
 		scrollbar-width: none;
 		/* Firefox */
 		-ms-overflow-style: none;
@@ -596,6 +595,7 @@ nav {
 		top: 3.875rem;
 		background: white;
 		padding: 0rem;
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 		z-index: 2;
 	}
 

@@ -1,5 +1,70 @@
 [
 	{
+		"Date": "BAS-044",
+		"Type": "獨行俠隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Bowman Chrome Cooper Flagg Auto",
+		"Image": "/bigaunt/assets/images/share/BAS-044-01.png",
+		"FileTitle": "Mavericks",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"旗子哥"
+		]
+	},
+	{
+		"Date": "BAS-043",
+		"Type": "灰狼隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Chrome Cactus Jack Anthony Edwards /25 Auto Orange",
+		"Image": "/bigaunt/assets/images/share/BAS-043-01.jpg",
+		"FileTitle": "Wolves",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"蟻人"
+		]
+	},
+	{
+		"Date": "BAS-043",
+		"Type": "獨行俠隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Chrome Cactus Kyrie Irving 8/25 Orange",
+		"Image": "/bigaunt/assets/images/share/BAS-043-02.jpg",
+		"FileTitle": "Mavericks",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"歐神"
+		]
+	},
+	{
+		"Date": "BAS-041",
+		"Type": "暴龍隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Signature Class Vince Carter Star Cast Acetate 22/50",
+		"Image": "/bigaunt/assets/images/share/BAS-041-01.png",
+		"FileTitle": "Raptors",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"加拿大航空"
+		]
+	},
+	{
+		"Date": "BAS-040",
+		"Type": "獨行俠隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Signature Class Cooper Flagg Leviathans SSP",
+		"Image": "/bigaunt/assets/images/share/BAS-040-01.png",
+		"FileTitle": "Mavericks",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"旗子哥"
+		]
+	},
+	{
 		"Date": "BAS-036",
 		"Type": "賽爾提克隊",
 		"TypeEN": "news",
@@ -127,19 +192,6 @@
 		"HighlightSlogan": "",
 		"Tags": [
 			"爵士"
-		]
-	},
-	{
-		"Date": "BAS-028",
-		"Type": "雷霆隊",
-		"TypeEN": "news",
-		"Content": "2025-26 Topps Midnight Brooks Barnhizer On-Card Auto",
-		"Image": "/bigaunt/assets/images/share/BAS-028-04.jpg",
-		"FileTitle": "ai-system-in-collaboration-to-advance-esg-goals",
-		"Highlight": true,
-		"HighlightSlogan": "",
-		"Tags": [
-			"雷霆"
 		]
 	},
 	{
@@ -377,6 +429,19 @@
 		"HighlightSlogan": "",
 		"Tags": [
 			"阿爹"
+		]
+	},
+	{
+		"Date": "BAS-001",
+		"Type": "暴龍隊",
+		"TypeEN": "news",
+		"Content": "2024-25 Court Kings Ja'Kobe Walter Auto /99",
+		"Image": "/bigaunt/assets/images/share/BAS-001-02.jpg",
+		"FileTitle": "big-data-captures-illegal-immigrants",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"假摳比"
 		]
 	}
 ]
