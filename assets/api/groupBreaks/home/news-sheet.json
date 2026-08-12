@@ -1,5 +1,31 @@
 [
 	{
+		"Date": "BAS-047",
+		"Type": "馬刺隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Chrome Update Dylan Harper RC Auto",
+		"Image": "/bigaunt/assets/images/share/BAS-047-01.png",
+		"FileTitle": "Spurs",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"哈波"
+		]
+	},
+	{
+		"Date": "BAS-047",
+		"Type": "拓荒者隊",
+		"TypeEN": "news",
+		"Content": "2025-26 Topps Chrome Update Damian Lillard Shadow Etch",
+		"Image": "/bigaunt/assets/images/share/BAS-047-02.png",
+		"FileTitle": "Portland",
+		"Highlight": true,
+		"HighlightSlogan": "",
+		"Tags": [
+			"小李"
+		]
+	},
+	{
 		"Date": "BAS-044",
 		"Type": "獨行俠隊",
 		"TypeEN": "news",
@@ -17,7 +43,7 @@
 		"Type": "灰狼隊",
 		"TypeEN": "news",
 		"Content": "2025-26 Topps Chrome Cactus Jack Anthony Edwards /25 Auto Orange",
-		"Image": "/bigaunt/assets/images/share/BAS-043-01.jpg",
+		"Image": "/bigaunt/assets/images/share/BAS-043-01.png",
 		"FileTitle": "Wolves",
 		"Highlight": true,
 		"HighlightSlogan": "",
@@ -30,7 +56,7 @@
 		"Type": "獨行俠隊",
 		"TypeEN": "news",
 		"Content": "2025-26 Topps Chrome Cactus Kyrie Irving 8/25 Orange",
-		"Image": "/bigaunt/assets/images/share/BAS-043-02.jpg",
+		"Image": "/bigaunt/assets/images/share/BAS-043-02.png",
 		"FileTitle": "Mavericks",
 		"Highlight": true,
 		"HighlightSlogan": "",
