@@ -6,6 +6,11 @@
 			// 必須在 Angular bundle 啟動、Router 讀取網址「之前」執行，所以放在 head 最前面。
 			(function (l) {
 				if (l.search[1] === '/') {
+					// 首頁有做 prerender，烤好的首頁 HTML 會在 Angular 接手前先被瀏覽器畫出來，
+					// 造成「先閃一下首頁、才換成正確頁面」的畫面閃爍。
+					// 先把畫面藏起來，等 app.component.ts 偵測到 Router 定位到正確路由後再顯示 (見該檔案)。
+					document.documentElement.style.visibility = 'hidden';
+
 					var decoded = l.search
 						.slice(1)
 						.split('&')
@@ -36,6 +41,6 @@
 
 	<body>
 		<app-root _nghost-sc77="" ng-version="15.2.10" ng-server-context="ssg"><router-outlet _ngcontent-sc77=""></router-outlet><app-page-not-found _nghost-sc69=""><div _ngcontent-sc69="" id="pageNotFoundCtn"><div _ngcontent-sc69="" class="container"><h1 _ngcontent-sc69="">404</h1><p _ngcontent-sc69="">抱歉，找不到您要查找的頁面。</p></div></div></app-page-not-found><!----><ngx-loading _ngcontent-sc77="" _nghost-sc76=""><!----></ngx-loading></app-root>
-	<script src="runtime.5b15a52cf4e0ee29.js" type="module"></script><script src="polyfills.1186e4488e7d903b.js" type="module"></script><script src="scripts.68ed26d13e2edc19.js" defer=""></script><script src="main.04ab5930b41fdfff.js" type="module"></script>
+	<script src="runtime.5b15a52cf4e0ee29.js" type="module"></script><script src="polyfills.1186e4488e7d903b.js" type="module"></script><script src="scripts.68ed26d13e2edc19.js" defer=""></script><script src="main.c91344a354b207bb.js" type="module"></script>
 
 </body></html>
